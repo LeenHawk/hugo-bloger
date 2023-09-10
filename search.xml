@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>CGS制单位转化</title>
+    <url>/posts/2668641632/</url>
+    <content><![CDATA[<p>今天我发现网上<span class="exturl" data-url="aHR0cHM6Ly9waHlzaWNzLnN0YWNrZXhjaGFuZ2UuY29tL3F1ZXN0aW9ucy82OTk3MjAvd2hhdC1pcy11bml0LXN5c3RlbS1pbi10aGlzLXJlZHVjdGlvbi1wcm9jZXNzP25vcmVkaXJlY3Q9MSNjb21tZW50MTU2NjI4M182OTk3MjA=">有人<i class="fa fa-external-link-alt"></i></span>问了关于SRIM那本书的问题，原来参数看起来不一样的原因是SRIM书上的单位是厘米-克-秒单位制(centimetre-gram-second
+system,CGS)，而不是现在比较常用的国际单位制(Système International
+d'Unités(French),SI)，那么就让我记一下有关的笔记吧。 <span id="more"></span></p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Quantity</th>
+<th style="text-align: left;">Quantity symbol</th>
+<th style="text-align: left;">CGS unit name</th>
+<th style="text-align: left;">Unit symbol</th>
+<th style="text-align: left;">Unit definition</th>
+<th style="text-align: left;">In coherent SI units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">length, position</td>
+<td style="text-align: left;"><span class="math inline">\(L,
+x\)</span></td>
+<td style="text-align: left;">centimetre</td>
+<td style="text-align: left;">cm</td>
+<td style="text-align: left;">1/100 of metre</td>
+<td style="text-align: left;"><span
+class="math inline">\(10^{−2}\)</span> m</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">mass</td>
+<td style="text-align: left;"><span
+class="math inline">\(m\)</span></td>
+<td style="text-align: left;">gram</td>
+<td style="text-align: left;">g</td>
+<td style="text-align: left;">1/1000 of kilogram</td>
+<td style="text-align: left;"><span
+class="math inline">\(10^{−3}\)</span> kg</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">time</td>
+<td style="text-align: left;"><span
+class="math inline">\(t\)</span></td>
+<td style="text-align: left;">second</td>
+<td style="text-align: left;">s</td>
+<td style="text-align: left;">1 second</td>
+<td style="text-align: left;">1 s</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">velocity</td>
+<td style="text-align: left;"><span
+class="math inline">\(v\)</span></td>
+<td style="text-align: left;">centimetre per second</td>
+<td style="text-align: left;">cm/s</td>
+<td style="text-align: left;">cm/s</td>
+<td style="text-align: left;"><span
+class="math inline">\(10^{−2}\)</span> m/s</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">acceleration</td>
+<td style="text-align: left;"><span
+class="math inline">\(a\)</span></td>
+<td style="text-align: left;">gal</td>
+<td style="text-align: left;">Gal</td>
+<td style="text-align: left;">cm/<span
+class="math inline">\(\text{s}^2\)</span></td>
+<td style="text-align: left;"><span
+class="math inline">\(10^{−2}\)</span> m/<span
+class="math inline">\(\text{s}^2\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">force</td>
+<td style="text-align: left;"><span
+class="math inline">\(F\)</span></td>
+<td style="text-align: left;">dyne</td>
+<td style="text-align: left;">dyn</td>
+<td style="text-align: left;">g⋅cm/<span
+class="math inline">\(\text{s}^2\)</span></td>
+<td style="text-align: left;"><span
+class="math inline">\(10^{−5}\)</span> N</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">energy</td>
+<td style="text-align: left;"><span
+class="math inline">\(E\)</span></td>
+<td style="text-align: left;">erg</td>
+<td style="text-align: left;">erg</td>
+<td style="text-align: left;">g⋅<span
+class="math inline">\(\text{cm}^2\)</span>/<span
+class="math inline">\(\text{s}^2\)</span></td>
+<td style="text-align: left;"><span
+class="math inline">\(10^{−7}\)</span> J</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">power</td>
+<td style="text-align: left;"><span
+class="math inline">\(P\)</span></td>
+<td style="text-align: left;">erg per second</td>
+<td style="text-align: left;">erg/s</td>
+<td style="text-align: left;">g⋅<span
+class="math inline">\(\text{cm}^2\)</span>/<span
+class="math inline">\(\text{s}^{3}\)</span></td>
+<td style="text-align: left;"><span
+class="math inline">\(10^{−7}\)</span> W</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">pressure</td>
+<td style="text-align: left;"><span
+class="math inline">\(p\)</span></td>
+<td style="text-align: left;">barye</td>
+<td style="text-align: left;">Ba</td>
+<td style="text-align: left;">g/(cm⋅<span
+class="math inline">\(\text{s}^2\)</span>)</td>
+<td style="text-align: left;"><span
+class="math inline">\(10^{−1}\)</span> Pa</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">dynamic viscosity</td>
+<td style="text-align: left;"><span
+class="math inline">\(μ\)</span></td>
+<td style="text-align: left;">poise</td>
+<td style="text-align: left;">P</td>
+<td style="text-align: left;">g/(cm⋅s)</td>
+<td style="text-align: left;"><span
+class="math inline">\(10^{−1}\)</span> Pa⋅s</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">kinematic viscosity</td>
+<td style="text-align: left;"><span
+class="math inline">\(ν\)</span></td>
+<td style="text-align: left;">stokes</td>
+<td style="text-align: left;">St</td>
+<td style="text-align: left;"><span
+class="math inline">\(\text{cm}^2\)</span>/s</td>
+<td style="text-align: left;"><span
+class="math inline">\(10^{−4}\)</span> <span
+class="math inline">\(\text{m}^2\)</span>/s</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">wavenumber</td>
+<td style="text-align: left;"><span
+class="math inline">\(k\)</span></td>
+<td style="text-align: left;">kayser (K)</td>
+<td style="text-align: left;"><span
+class="math inline">\(\text{cm}^{-1}\)</span></td>
+<td style="text-align: left;"><span
+class="math inline">\(\text{cm}^{-1}\)</span></td>
+<td style="text-align: left;">100 <span
+class="math inline">\(\text{m}^{-1}\)</span></td>
+</tr>
+</tbody>
+</table>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Quantity</th>
+<th style="text-align: left;">Symbol</th>
+<th style="text-align: left;">SI unit</th>
+<th style="text-align: left;">ESU unit</th>
+<th style="text-align: left;">Gaussian unit</th>
+<th style="text-align: left;">EMU unit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">electric charge</td>
+<td style="text-align: left;"><span
+class="math inline">\(q\)</span></td>
+<td style="text-align: left;">1 C</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^{-1}\)</span><span
+class="math inline">\(c\)</span>) statC (Franklin)</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^{-1}\)</span><span
+class="math inline">\(c\)</span>) statC (Franklin)</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^{-1}\)</span>) abC</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">electric flux</td>
+<td style="text-align: left;"><span
+class="math inline">\(Φ_E\)</span></td>
+<td style="text-align: left;">1 V⋅m</td>
+<td style="text-align: left;">≘ (4π × <span
+class="math inline">\(10^{-1}\)</span><span
+class="math inline">\(c\)</span>) statC (Franklin)</td>
+<td style="text-align: left;">≘ (4π × <span
+class="math inline">\(10^{-1}\)</span><span
+class="math inline">\(c\)</span>) statC (Franklin)</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^{-1}\)</span>) abC</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">electric current</td>
+<td style="text-align: left;"><span
+class="math inline">\(I\)</span></td>
+<td style="text-align: left;">1 A</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^{-1}\)</span><span
+class="math inline">\(c\)</span>) statA (Fr⋅<span
+class="math inline">\(\text{s}^{−1}\)</span>)</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^{-1}\)</span><span
+class="math inline">\(c\)</span>) statA (Fr⋅<span
+class="math inline">\(\text{s}^{−1}\)</span>)</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^{-1}\)</span>) Bi</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">electric potential / voltage</td>
+<td style="text-align: left;"><span class="math inline">\(\Phi / V,
+U\)</span></td>
+<td style="text-align: left;">1 V</td>
+<td style="text-align: left;">≘ (<span class="math inline">\(10^8
+c^{−1}\)</span>) statV</td>
+<td style="text-align: left;">≘ (<span class="math inline">\(10^8
+c^{−1}\)</span>) statV</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^8\)</span>) abV</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">electric field</td>
+<td style="text-align: left;"><span
+class="math inline">\(E\)</span></td>
+<td style="text-align: left;">1 V/m</td>
+<td style="text-align: left;">≘ (<span class="math inline">\(10^6
+c^{−1}\)</span>) statV/cm</td>
+<td style="text-align: left;">≘ (<span class="math inline">\(10^6
+c^{−1}\)</span>) statV/cm</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^6\)</span>) abV/cm</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">electric displacement field</td>
+<td style="text-align: left;"><span
+class="math inline">\(D\)</span></td>
+<td style="text-align: left;">1 C/<span
+class="math inline">\(\text{m}^2\)</span></td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^{−5}c\)</span>) statC/<span
+class="math inline">\(\text{cm}^2\)</span> (Fr/<span
+class="math inline">\(\text{cm}^2\)</span>)</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^{−5}c\)</span>) statC/<span
+class="math inline">\(\text{cm}^2\)</span> (Fr/<span
+class="math inline">\(\text{cm}^2\)</span>)</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^{−5}\)</span>) abC/<span
+class="math inline">\(\text{cm}^2\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">electric dipole moment</td>
+<td style="text-align: left;"><span
+class="math inline">\(p\)</span></td>
+<td style="text-align: left;">1 C⋅m</td>
+<td style="text-align: left;">≘ (10<span
+class="math inline">\(c\)</span>) statC⋅cm</td>
+<td style="text-align: left;">≘ (10<span
+class="math inline">\(c\)</span>) statC⋅cm</td>
+<td style="text-align: left;">≘ (10) abC⋅cm</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">magnetic dipole moment</td>
+<td style="text-align: left;"><span
+class="math inline">\(μ\)</span></td>
+<td style="text-align: left;">1 A⋅<span
+class="math inline">\(\text{m}^2\)</span></td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^3c\)</span>) statC⋅<span
+class="math inline">\(\text{cm}^2\)</span></td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^3\)</span>) Bi⋅<span
+class="math inline">\(\text{cm}^2\)</span> = (<span
+class="math inline">\(10^3\)</span>) erg/G</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^3\)</span>) Bi⋅<span
+class="math inline">\(\text{cm}^2\)</span> = (<span
+class="math inline">\(10^3\)</span>) erg/G</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">magnetic B field</td>
+<td style="text-align: left;"><span
+class="math inline">\(B\)</span></td>
+<td style="text-align: left;">1 T</td>
+<td style="text-align: left;">≘ (<span class="math inline">\(10^4
+c^{−1}\)</span>) statT</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^4\)</span>) G</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^4\)</span>) G</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">magnetic H field</td>
+<td style="text-align: left;"><span
+class="math inline">\(H\)</span></td>
+<td style="text-align: left;">1 A/m</td>
+<td style="text-align: left;">≘ (4π × <span
+class="math inline">\(10^{−3}c\)</span>) statA/cm</td>
+<td style="text-align: left;">≘ (4π × <span
+class="math inline">\(10^{−3}\)</span>) Oe</td>
+<td style="text-align: left;">≘ (4π × <span
+class="math inline">\(10^{−3}\)</span>) Oe</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">magnetic flux</td>
+<td style="text-align: left;"><span
+class="math inline">\(Φ_m\)</span></td>
+<td style="text-align: left;">1 Wb</td>
+<td style="text-align: left;">≘ (<span class="math inline">\(10^8
+c^{−1}\)</span>) statWb</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^8\)</span>) Mx</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^8\)</span>) Mx</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">resistance</td>
+<td style="text-align: left;"><span
+class="math inline">\(R\)</span></td>
+<td style="text-align: left;">1 Ω</td>
+<td style="text-align: left;">≘ (<span class="math inline">\(10^9
+c^{−2}\)</span>) s/cm</td>
+<td style="text-align: left;">≘ (<span class="math inline">\(10^9
+c^{−2}\)</span>) s/cm</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^9\)</span>) abΩ</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">resistivity</td>
+<td style="text-align: left;"><span
+class="math inline">\(ρ\)</span></td>
+<td style="text-align: left;">1 Ω⋅m</td>
+<td style="text-align: left;">≘ (<span class="math inline">\(10^{11}
+c^{−2}\)</span>) s</td>
+<td style="text-align: left;">≘ (<span class="math inline">\(10^{11}
+c^{−2}\)</span>) s</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^{11}\)</span>) abΩ⋅cm</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">capacitance</td>
+<td style="text-align: left;"><span
+class="math inline">\(C\)</span></td>
+<td style="text-align: left;">1 F</td>
+<td style="text-align: left;">≘ (<span class="math inline">\(10^{−9}
+c^2\)</span>) cm</td>
+<td style="text-align: left;">≘ (<span class="math inline">\(10^{−9}
+c^2\)</span>) cm</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^{−9}\)</span>) abF</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">inductance</td>
+<td style="text-align: left;"><span
+class="math inline">\(L\)</span></td>
+<td style="text-align: left;">1 H</td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^9\)</span> <span
+class="math inline">\(c^{−2}\)</span>) <span
+class="math inline">\(\text{cm}^{−1}⋅\text{s}^2\)</span></td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^9\)</span> <span
+class="math inline">\(c^{−2}\)</span>) <span
+class="math inline">\(\text{cm}^{−1}⋅\text{s}^2\)</span></td>
+<td style="text-align: left;">≘ (<span
+class="math inline">\(10^9\)</span>) abH</td>
+</tr>
+</tbody>
+</table>
+<p>对于公式 <span class="math display">\[
+\begin{aligned}
+\varepsilon &amp;=\frac{a E_{c}}{Z_{1} Z_{2} e^{2}} \\
+E_{c} &amp;=\frac{E_{0} M_{2}}{M_{1}+M_{2}} \\
+a &amp;=\frac{0.8853 a_{0}}{Z_{1}^{0.23}+Z_{2}^{0.23}}
+\end{aligned}
+\]</span> 其中，玻尔半径<span
+class="math inline">\(a_0=0.529\)</span>Å,<span
+class="math inline">\(E_0\)</span>单位为keV，要得到： <span
+class="math display">\[
+\varepsilon=\frac{32.53 M_{2} E_{0}}{Z_{1}
+Z_{2}\left(M_{1}+M_{2}\right)\left(Z_{1}^{0.23}+Z_{2}^{0.23}\right)}
+\]</span> 即在CGS单位制下有： <span class="math display">\[
+\frac{0.8853a_0}{e^2}=32.53
+\]</span> 该问题下，有人给出了： <span class="math display">\[
+32.53 \approx 0.8853 \cdot 5.29 \cdot 10^{-9} \cdot 1000 \cdot 4.8 \cdot
+10^{-10} \cdot \frac{1}{300} /\left(4.8 \cdot 10^{-10}\right)^{2}
+\]</span>
+唔，看起来和国际单位制的变换还是有些不一样的，让我们一步步地看看：</p>
+<p><span class="math display">\[
+\begin{aligned}
+&amp;a_0=0.529\text{Å}=0.529*10^{-8}\text{cm}=5.29*10^{-9}\text{cm}\\
+&amp;e=4.803 204 27*10^{-10}\text{Fr}
+\end{aligned}
+\]</span>
+由于CSG（或者说CSG中，ESU）单位制中电压单位(statV)关于SI单位制的电压单位(V)有：
+<span class="math display">\[
+1\text{V}=10^{8}c^{-1}\text{statV}\approx \frac{1}{300}\text{statV}
+\]</span> 由于<span
+class="math inline">\(E_0\)</span>给的是千电子伏特(keV)单位，所以要再添上比例系数：
+<span class="math display">\[
+1000*\frac{1}{300}*e
+\]</span> 将上面的全部代入式子即得结果。</p>
+]]></content>
+      <categories>
+        <category>物理</category>
+        <category>计算物理</category>
+      </categories>
+      <tags>
+        <tag>计算物理</tag>
+        <tag>物理</tag>
+        <tag>单位制</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Gitea同步到Gitee和Github</title>
+    <url>/posts/1067595023/</url>
+    <content><![CDATA[<p>建立了一个Gitea站之后，因为Gitea一般位于内网，有一些项目可能希望分享到外网与开源社区分享，我们可以使用Gitea提供的镜像仓库推送功能。
+<span id="more"></span></p>
+<h2 id="github-推送">GitHub 推送</h2>
+<p>转到<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3NldHRpbmdzL2FwcHM=">Github developer
+setting<i class="fa fa-external-link-alt"></i></span>，创建一个Token，需要操作我们同步的那个repo的权限，记住value。</p>
+<p>回到 Gitea，点开仓库，从设置-仓库中找到镜像设置，输入希望同步的 repo
+和 Github 用户名和 刚才的 Token。（不要填密码，这样不安全）</p>
+<p>点击同步，测试同步是否成功，失败会有提示。</p>
+<h2 id="gitee-推送">Gitee 推送</h2>
+<p>同上。</p>
+]]></content>
+      <categories>
+        <category>工具</category>
+        <category>Gitee</category>
+      </categories>
+      <tags>
+        <tag>Gitee</tag>
+        <tag>多端同步</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Qt-生命游戏开发记</title>
+    <url>/posts/4092652412/</url>
+    <content><![CDATA[<p>细胞自动机（英语：Cellular
+automaton），又称格状自动机、元胞自动机，是一种离散模型，在可计算性理论、数学及理论生物学都有相关研究。它是由无限个有规律、坚硬的方格组成，每格均处于一种有限状态。整个格网可以是任何有限维的。同时也是离散的。每格于t时的态由t-1时的一集有限格（这集为该格的邻域）的态决定。每一格的“邻居”都是已被固定的。（一格可以是自己的邻居。）每次演进时，每格均遵从同一规矩一齐演进。</p>
+<p>就形式而言，细胞自动机有三个特征：</p>
+<ol type="1">
+<li>平行计算（parallel
+computation）：每一个细胞个体都同时同步的改变；</li>
+<li>局部的（local）：细胞的状态变化只受周遭细胞的影响；</li>
+<li>一致性的（homogeneous）：所有细胞均受同样的规则所支配。</li>
+</ol>
+<p>以上引自<span class="exturl" data-url="aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU1JUJBJUI3JUU1JUE4JTgxJUU3JTk0JTlGJUU1JTkxJUJEJUU2JUI4JUI4JUU2JTg4JThG">wikipedia
+细胞自动机<i class="fa fa-external-link-alt"></i></span>。 <span id="more"></span></p>
+<h2 id="生命游戏">生命游戏</h2>
+<p>生命游戏(game of life)为1970年由英国数学家J. H. Conway所提出
+某细胞的邻居包括上、下、左、右、左上、左下、右上与右下相邻之细胞
+游戏规则如下：</p>
+<ul>
+<li>孤单死亡：如果细胞的邻居小于等于1个，则该细胞在下一次状态将死亡；</li>
+<li>拥挤死亡：如果细胞的邻居在4个及以上，则该细胞在下一次状态将死亡；</li>
+<li>稳定：如果细胞的邻居为2个或3个，则下一次状态为稳定存活；</li>
+<li>复活：如果某位置原无细胞存活，而该位置的邻居为2个或3个，则该位置将复活一个细胞。</li>
+</ul>
+<p>以上引自<span class="exturl" data-url="aHR0cDovL25vbm9hcy5naXRlZS5pby93ZWJwcm9qL0xpZmVHYW1lLw==">生命游戏网页版<i class="fa fa-external-link-alt"></i></span>。</p>
+<p>这是一个非常适合并行实验的例子，并且还可以试验一下并行和链表。</p>
+]]></content>
+      <categories>
+        <category>GUI开发</category>
+        <category>Qt</category>
+      </categories>
+      <tags>
+        <tag>Qt</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Qt6静态编译（一）：Linux编译</title>
+    <url>/posts/1458748944/</url>
+    <content><![CDATA[<p>Qt挺好用的，但是静态编译使人头大，这里记录一下Linux上咋静态编译（Windows上下次再出吧），顺便记一下WSL开发环境设置(比如安装Anconda、pytorch和Microsoft
+edge，解决中文乱码问题)。</p>
+<span id="more"></span>
+<h2 id="安装wsl2">安装WSL2</h2>
+<p>Emm,为啥这里不装个单独的虚拟机啥的？因为我懒。。。</p>
+<p>首先，打开cmd或者powershell，输入：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wsl --install</span><br></pre></td></tr></table></figure>
+<p>等待下载（可能需要重启），然后把Ubuntu卸了（原生的是Ubuntu
+20.04,没有22.04,但是不这样你电脑可能有些设置没开，之前装过的请跳过这步），打开Windows
+store，安装Ubuntu22.04lts，完成安装步骤（建议选英语，要不然下几步我不确定会不会出问题）。</p>
+<p>然后，输入：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt upgrade </span><br></pre></td></tr></table></figure>
+<h3 id="转移安装位置">转移安装位置</h3>
+<p>因为WSL很大，所以我们需要把它装到D盘，使用如下命令（打开cmd）：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wsl --export Ubuntu-22.04 D:/export.tar </span><br><span class="line">wsl --import Ubuntu-22.04 D:\Ubuntu\ D:\export.tar --version 2</span><br></pre></td></tr></table></figure>
+<p>WSL即被挪到<code>D:\Ubuntu</code>，可以删除镜像文件<code>export.tar</code>。</p>
+<h3 id="gpu支持">GPU支持</h3>
+<p>可以安装对应平台的驱动获得GPU加速，参见<span class="exturl" data-url="aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vd2luZG93cy93c2wvdHV0b3JpYWxzL2d1aS1hcHBz">在适用于
+Linux 的 Windows 子系统上运行 Linux GUI 应用<i class="fa fa-external-link-alt"></i></span>。</p>
+<h3 id="wsl2中文字体问题">WSL2中文字体问题</h3>
+<p>由于WSL安装包经常是没有中文的（你选了也会少字体），所以要进行配置（此处参见了<span class="exturl" data-url="aHR0cHM6Ly9tb25rZXl3aWUuY24vMjAyMS8wOS8yNi93c2wyLWd1aS1pZGVhLWNvbmZpZy8=">wsl2官方gui安装IDEA踩坑记录<i class="fa fa-external-link-alt"></i></span>）。</p>
+<p>安装相关包</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt install language-pack-zh-hans</span><br><span class="line">sudo dpkg-reconfigure locales #这一步要选择en_US.UTF-8和zh_CN.UTF-8, 并且zh_CN.UTF-8为默认语言</span><br><span class="line">sudo apt install fontconfig</span><br></pre></td></tr></table></figure>
+<p>安装 Windows 字体,编辑<code>/etc/fonts/local.conf</code>:</p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=<span class="string">&quot;1.0&quot;</span>?&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">fontconfig</span> <span class="keyword">SYSTEM</span> <span class="string">&quot;fonts.dtd&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">fontconfig</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dir</span>&gt;</span>/mnt/c/Windows/Fonts<span class="tag">&lt;/<span class="name">dir</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">fontconfig</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>刷新字体缓存:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo fc-cache -f -v</span><br></pre></td></tr></table></figure>
+<p>重启WSL（记得在cmd或者powershell打这步）:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wsl --shutdown</span><br></pre></td></tr></table></figure>
+<p>搞定，但是建议把语言换回英语（命令行真的中文支持不太好），记得再重启WSL：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo dpkg-reconfigure locales</span><br></pre></td></tr></table></figure>
+<h2 id="安装依赖">安装依赖</h2>
+<p>由于Qt自动搜索对于某些包非常不智能，建议严格按照以下安装，不然有可能导致奇奇怪怪的错误:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt install g++-12 clang-14 gdb cmake ninja-build build-essential libgl1-mesa-dev libfontconfig1-dev libfreetype6-dev libx11-dev libx11-xcb-dev libxext-dev libxfixes-dev libxi-dev libxrender-dev libxcb1-dev libxcb-glx0-dev libxcb-keysyms1-dev libxcb-image0-dev libxcb-shm0-dev libxcb-icccm4-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-randr0-dev libxcb-render-util0-dev libxcb-util-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev libatspi2.0-dev libclang-14-dev gperf libdouble-conversion-dev libmd4c-dev libmd4c-html0 python3-pip bison flex libhunspell-dev libc++-14-dev libc++abi-14-dev</span><br><span class="line">sudo apt autoremove </span><br></pre></td></tr></table></figure>
+<h2 id="安装qt">安装Qt</h2>
+<p>对，强烈建议你先装个qt，要不然直接编译极易出问题，建议从Qt官方<span class="exturl" data-url="aHR0cDovL3d3dy5xdC5pby9kb3dubG9hZC8=">下载<i class="fa fa-external-link-alt"></i></span>在线安装包。（可以Windows里下了挪进去也可以直接<code>wget</code>下载）</p>
+<p>在线安装包需要赋予权限：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo chmod +x qt-unified-linux-x64-xxx--online.run</span><br></pre></td></tr></table></figure>
+<p>运行：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo ./qt-unified-linux-x64-xxx--online.run</span><br></pre></td></tr></table></figure>
+<p>建议安装选项选<code>Custom Installation</code>,选<code>Qt 6.3.1</code>(或者最新的某个稳定版)下的<code>Desktop gcc 64-bit</code>、<code>Qt Charts</code>和<code>source</code>以及<code>Developer and Designer Tools</code>下的<code>Qt Design Studio</code>（不建议再安装<code>Cmake</code>和<code>Ninja</code>,它们在之前装过了，可能会导致后面寻路失败），安装。</p>
+<h2 id="安装anaconda和microsoft-edge">安装Anaconda和Microsoft Edge</h2>
+<p>什么，为什么这里会突然冒出来这个?呃，你没发现Qt安装得贼慢吗，我们可以干一些别的事情，比如装个Anaconda、pytorch和Microsoft
+Edge。</p>
+<h3 id="安装anaconda和pytorch">安装Anaconda和pytorch</h3>
+<p>打开<span class="exturl" data-url="aHR0cHM6Ly93d3cuYW5hY29uZGEuY29tL3Byb2R1Y3RzL2Rpc3RyaWJ1dGlvbiNEb3dubG9hZHM=">Anaconda官网<i class="fa fa-external-link-alt"></i></span>，下载Linux版Anaconda，然后打开另一个Ubuntu窗口：(强烈建议Qt开发机别装)</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo bash Anaconda3-xxxxxx-Linux-x86_64.sh</span><br></pre></td></tr></table></figure>
+<p>建议选<code>/usr/local/anaconda3</code>为安装位置。安装完运行（这步命令与安装位置有关系）：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">/usr/local/anaconda3/bin/conda init</span><br></pre></td></tr></table></figure>
+<p>重启这个Ubuntu窗口，并输入(为root用户创建conda环境)：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo su</span><br><span class="line">/usr/local/anaconda3/bin/conda init</span><br><span class="line">exit</span><br><span class="line">sudo su</span><br><span class="line">conda update --all</span><br><span class="line">conda install html5lib</span><br></pre></td></tr></table></figure>
+<p>去<span class="exturl" data-url="aHR0cHM6Ly9weXRvcmNoLm9yZy9nZXQtc3RhcnRlZC9sb2NhbGx5Lw==">pytorch官网<i class="fa fa-external-link-alt"></i></span>看一下怎么安装，笔者这里安装有cuda11.3的版本（cuda需要额外在Windows里<span class="exturl" data-url="aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vZW4tdXMvd2luZG93cy9haS9kaXJlY3RtbC9ncHUtY3VkYS1pbi13c2w=">安装<i class="fa fa-external-link-alt"></i></span>），输入：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch</span><br></pre></td></tr></table></figure>
+<h3 id="安装microsoft-edge">安装Microsoft Edge</h3>
+<p>有时候，某些开发需要浏览器，为了体验一致性（与Windows），我们可以按微软给的<span class="exturl" data-url="aHR0cHM6Ly93d3cubWljcm9zb2Z0ZWRnZWluc2lkZXIuY29tL3poLWNuL2Rvd25sb2FkP3BsYXRmb3JtPWxpbnV4LWRlYg==">Edge
+Linux版本说明<i class="fa fa-external-link-alt"></i></span>使用命令行安装（这里是Ubuntu，其余自己去官网看）：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="comment"># Setup</span></span></span><br><span class="line">curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor &gt; microsoft.gpg</span><br><span class="line">sudo install -o root -g root -m 644 microsoft.gpg /usr/share/keyrings/</span><br><span class="line">sudo sh -c &#x27;echo &quot;deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/edge stable main&quot; &gt; /etc/apt/sources.list.d/microsoft-edge-beta.list&#x27;</span><br><span class="line">sudo rm microsoft.gpg</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="comment"># Install</span></span></span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt install microsoft-edge-beta</span><br></pre></td></tr></table></figure>
+<h3 id="cc环境变量设置">cc环境变量设置</h3>
+<p>这里可能会有小伙伴们发现<code>gcc -v</code>输出的是11，但我们装的是12，不是吗？这就需要切换环境变量，在AskUbuntu上有一个问答：<span class="exturl" data-url="aHR0cHM6Ly9hc2t1YnVudHUuY29tL3F1ZXN0aW9ucy8yNjQ5OC9ob3ctdG8tY2hvb3NlLXRoZS1kZWZhdWx0LWdjYy1hbmQtZy12ZXJzaW9u">How
+to choose the default gcc and g++
+version?<i class="fa fa-external-link-alt"></i></span>,里面提到了我们可以用如下命令切换：(其中10、20、30是优先级，数字越大，优先级越高)</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 10</span><br><span class="line">sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 20</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-11 10</span><br><span class="line">sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-12 20</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/cc cc /usr/bin/gcc 30</span><br><span class="line">sudo update-alternatives --set cc /usr/bin/gcc</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/c++ c++ /usr/bin/g++ 30</span><br><span class="line">sudo update-alternatives --set c++ /usr/bin/g++</span><br></pre></td></tr></table></figure>
+<p>如果你之前用过<code>update-alternatives</code>,可以使用如下命令清除：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo update-alternatives --remove-all gcc </span><br><span class="line">sudo update-alternatives --remove-all g++</span><br></pre></td></tr></table></figure>
+<h3 id="安装nodejs">安装nodejs</h3>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash</span><br><span class="line">nvm install node</span><br></pre></td></tr></table></figure>
+<h3 id="qt编译">Qt编译</h3>
+<p>时间差不多到了，回来编译Qt，因为大小原因，先编个<code>qtbase</code>和<code>qtcharts</code>吧，有需要再搞其他。</p>
+<p>打开<code>/opt/Qt/6.x.x/</code>，新建一个<code>build</code>文件夹，之后好删中间文件：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd /opt/Qt/6.x.x/</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br></pre></td></tr></table></figure>
+<p>这里可能要先关掉<code>anaconda</code>环境，输入：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">conda deactivate</span><br></pre></td></tr></table></figure>
+<p>同时不要索引anaconda安装的库，使用：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">echo $PATH</span><br></pre></td></tr></table></figure>
+<p>输出：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">/home/xxx/anaconda3/bin:/usr/xxx/bin:/usr/xxx/local/bin</span><br></pre></td></tr></table></figure>
+<p>去掉anaconda部分:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">PATH=/usr/xxx/bin:/usr/xxx/local/bin</span><br></pre></td></tr></table></figure>
+<p>配置编译，输入以下命令:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">/opt/Qt/6.3.1/Src/configure -prefix /opt/Qt/6.3.1/gcc_64_static -debug-and-release -static -submodules qtbase,qtcharts,qtwayland -platform linux-g++ -c++std c++20</span><br></pre></td></tr></table></figure>
+<p>好的，按道理来说会正常输出:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Qt is now configured for building. Just run &#x27;cmake --build . --parallel&#x27;</span><br><span class="line"></span><br><span class="line">Once everything is built, you must run &#x27;ninja install&#x27;</span><br><span class="line">Qt will be installed into &#x27;/opt/Qt/6.x.x/gcc_64_static&#x27;</span><br><span class="line"></span><br><span class="line">To configure and build other Qt modules, you can use the following convenience script:</span><br><span class="line">        /opt/Qt/6.x.x/gcc_64_static/bin/qt-configure-module</span><br><span class="line"></span><br><span class="line">If reconfiguration fails for some reason, try removing &#x27;CMakeCache.txt&#x27; from the build directory</span><br><span class="line"></span><br><span class="line">-- Configuring done</span><br><span class="line">-- Generating done</span><br><span class="line">-- Build files have been written to: /opt/Qt/6.x.x/build</span><br></pre></td></tr></table></figure>
+<p>再输入：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cmake --build . --parallel</span><br></pre></td></tr></table></figure>
+<p>等待编译完成，可能得几个小时，编译完成后输入：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ninja install </span><br></pre></td></tr></table></figure>
+<h2 id="错误与解决方法">错误与解决方法</h2>
+<p>不幸，最简单的Widget应用输出了:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">/usr/lib/x86_64-linux-gnu/libfontconfig.so: undefined reference to `uuid_parse@UUID_1.0`</span><br></pre></td></tr></table></figure>
+<p>似乎是Anaconda中又有同名库导致的了，卸载Anaconda后有效,也许可以通过设置路径解决，吐了，下次生成一份完整静态版然后直接存档行了吧。</p>
+]]></content>
+      <categories>
+        <category>程序</category>
+        <category>C++</category>
+        <category>Qt</category>
+      </categories>
+      <tags>
+        <tag>Qt</tag>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Qt6静态编译（二）：Windows编译</title>
+    <url>/posts/597631914/</url>
+    <content><![CDATA[<p>这次出的是Windows编译，你问为什么上一篇说是要过段时间，为什么是同一天的文章？因为我突然想把Qt搬到D盘去，反正都是固态。</p>
+<span id="more"></span>
+<h2 id="安装qt">安装Qt</h2>
+<p>非常不建议从头开始编译Qt，那问题多的要命，Windows上也建议去<span class="exturl" data-url="aHR0cDovL3d3dy5xdC5pby9kb3dubG9hZC8=">官网下载<i class="fa fa-external-link-alt"></i></span>一个在线安装器回来，安装<code>MSVC 2019 64-bit</code>、<code>Qt Charts</code>和<code>source</code>以及把<code>Developer and Designer Tools</code>下的CMake和Ninja取消（你得自己去官网下个，装成环境变量，不然很容易会出现依赖火葬场）。</p>
+<h2 id="编译和环境设置">编译和环境设置</h2>
+<p>环境请安装Perl、cmake、ninja等到环境变量（大概吧，但是我不想找个新机子试了），需要安装<code>Visual Studio 2022 community</code>，安装后打开<code>x64 Native Tools Command Prompt for VS 2022</code>,创建打开build文件夹，输入：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">D:\Qt\x.x.x\Src\configure -prefix D:\Qt\x.x.x\msvc2019_64_static -debug-and-release -static -submodules qtbase,qtcharts,qtwayland -platform win32-msvc -c++std c++20 -static-runtime</span><br></pre></td></tr></table></figure>
+<p>等待编译完成。</p>
+]]></content>
+      <categories>
+        <category>程序</category>
+        <category>C++</category>
+        <category>Qt</category>
+      </categories>
+      <tags>
+        <tag>Qt</tag>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WASI-sdk安装指南与使用</title>
+    <url>/posts/87123955/</url>
+    <content><![CDATA[<p>以前一直把C++转成Webassembly都用的是Emscripten，但是最近发现有个新工具WASI-sdk同样可以用来把C/C++转成webassembly，这里就做一下介绍吧。
+<span id="more"></span></p>
+<h2 id="wasi简介">WASI简介</h2>
+<p>WASI 是一种标准化的接口，旨在让WebAssembly
+程序能够在不同的宿主环境中运行，同时保持安全性和可移植性。</p>
+<h2 id="二进制安装以及使用">二进制安装以及使用</h2>
+<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL1dlYkFzc2VtYmx5L3dhc2ktc2RrL3JlbGVhc2Vz">Download
+SDK packages here.<i class="fa fa-external-link-alt"></i></span></p>
+<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="code"><pre><span class="line">export WASI_VERSION=14</span><br><span class="line">export WASI_VERSION_FULL=$&#123;WASI_VERSION&#125;.0</span><br><span class="line">wget https://github.com/WebAssembly/wasi-sdk/releases/download/wasi-sdk-$&#123;WASI_VERSION&#125;/wasi-sdk-$&#123;WASI_VERSION_FULL&#125;-linux.tar.gz</span><br><span class="line">tar xvf wasi-sdk-$&#123;WASI_VERSION_FULL&#125;-linux.tar.gz</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="code"><pre><span class="line">export WASI_SDK_PATH=`pwd`/wasi-sdk-$&#123;WASI_VERSION_FULL&#125;</span><br><span class="line">CC=&quot;$&#123;WASI_SDK_PATH&#125;/bin/clang --sysroot=$&#123;WASI_SDK_PATH&#125;/share/wasi-sysroot&quot;</span><br><span class="line"><span class="meta prompt_">$</span><span class="language-bash">CC foo.c -o foo.wasm</span></span><br></pre></td></tr></table></figure>
+<h2 id="编译安装">编译安装</h2>
+<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="code"><pre><span class="line">cd wasi-sdk</span><br><span class="line">NINJA_FLAGS=-v make package</span><br></pre></td></tr></table></figure>
+<h2 id="等待wasi-sdk20正式版">等待WASI-sdk20正式版</h2>
+<p>thread支持将在wasi-sdk20中添加。</p>
+]]></content>
+      <categories>
+        <category>工具</category>
+        <category>wasi-sdk</category>
+      </categories>
+      <tags>
+        <tag>工具</tag>
+        <tag>C/C++</tag>
+        <tag>编译器</tag>
+        <tag>wasi-sdk</tag>
+        <tag>wasi</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>clang-libcxx-lld-lldb自举</title>
+    <url>/posts/1333943397/</url>
+    <content><![CDATA[<p>最近折腾一下clang工具链自举吧，不自举老连系统库就失去在Linux上用clang的意义了啊（难迁移）。
+<span id="more"></span></p>
+<p>假设在<code>llvm-project</code>文件夹，源代码在<code>llvm-project/src</code>文件夹，以Clang
+16.0为例。</p>
+<h2 id="全程序版">全程序版</h2>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir build &amp;&amp; cd build</span><br><span class="line">cmake -G &quot;Ninja&quot; \</span><br><span class="line">  -DCMAKE_C_COMPILER=clang \</span><br><span class="line">  -DCMAKE_CXX_COMPILER=clang++ \</span><br><span class="line">  -DLLVM_USE_LINKER=lld \</span><br><span class="line">  -DLLVM_ENABLE_PROJECTS=&quot;clang;clang-tools-extra;cross-project-tests;libclc;lld;lldb;polly;pstl&quot; \</span><br><span class="line">  -DLLVM_TARGETS_TO_BUILD=Native \</span><br><span class="line">  -DCLANG_ENABLE_BOOTSTRAP=ON \</span><br><span class="line">  -DCMAKE_BUILD_TYPE=Release \</span><br><span class="line">  -DCLANG_DEFAULT_CXX_STDLIB=libc++ \</span><br><span class="line">  -DCLANG_DEFAULT_RTLIB=compiler-rt \</span><br><span class="line">  -DLLVM_ENABLE_RUNTIMES=&quot;compiler-rt;libc;libcxx;libcxxabi;libunwind;openmp&quot; \</span><br><span class="line">  -DLIBCXX_USE_COMPILER_RT=YES \</span><br><span class="line">  -DLIBCXXABI_USE_COMPILER_RT=YES \</span><br><span class="line">  -DLIBCXXABI_USE_LLVM_UNWINDER=YES \</span><br><span class="line">  -DLIBCXX_ENABLE_PARALLEL_ALGORITHMS=ON \</span><br><span class="line">  -DBOOTSTRAP_CMAKE_BUILD_TYPE=Release \</span><br><span class="line">  -DBOOTSTRAP_LLVM_ENABLE_PROJECTS=&quot;clang;clang-tools-extra;cross-project-tests;libclc;lld;lldb;polly;pstl&quot; \</span><br><span class="line">  -DBOOTSTRAP_LLVM_ENABLE_RUNTIMES=&quot;compiler-rt;libc;libcxx;libcxxabi;libunwind;openmp&quot; \</span><br><span class="line">  -DBOOTSTRAP_CLANG_DEFAULT_CXX_STDLIB=libc++ \</span><br><span class="line">  -DBOOTSTRAP_CLANG_DEFAULT_RTLIB=compiler-rt \</span><br><span class="line">  -DBOOTSTRAP_LIBCXX_USE_COMPILER_RT=YES \</span><br><span class="line">  -DBOOTSTRAP_LIBCXXABI_USE_COMPILER_RT=YES \</span><br><span class="line">  -DBOOTSTRAP_LIBCXXABI_USE_LLVM_UNWINDER=YES \</span><br><span class="line">  -DBOOTSTRAP_LLVM_USE_LINKER=lld \</span><br><span class="line">  -DLIBUNWIND_USE_COMPILER_RT=Yes \</span><br><span class="line">  -DBOOTSTRAP_LIBUNWIND_USE_COMPILER_RT=Yes \</span><br><span class="line">  -DBOOTSTRAP_LIBCXX_ENABLE_PARALLEL_ALGORITHMS=ON \</span><br><span class="line">  ../src/llvm</span><br><span class="line">ninja </span><br><span class="line">ninja stage2</span><br></pre></td></tr></table></figure>
+<h2
+id="关键程序版clang-lld-lldb-libcxx-libcxxabi-libunwind-compiler_rt">关键程序版(clang
+lld lldb libcxx libcxxabi libunwind compiler_rt)：</h2>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir build &amp;&amp; cd build</span><br><span class="line">cmake -G &quot;Ninja&quot; \</span><br><span class="line">  -DCMAKE_C_COMPILER=clang \</span><br><span class="line">  -DCMAKE_CXX_COMPILER=clang++ \</span><br><span class="line">  -DLLVM_USE_LINKER=lld \</span><br><span class="line">  -DLLVM_ENABLE_PROJECTS=&quot;clang;lld;lldb;libc;pstl&quot; \</span><br><span class="line">  -DLLVM_TARGETS_TO_BUILD=Native \</span><br><span class="line">  -DCLANG_ENABLE_BOOTSTRAP=ON \</span><br><span class="line">  -DCMAKE_BUILD_TYPE=Release \</span><br><span class="line">  -DCLANG_DEFAULT_CXX_STDLIB=libc++ \</span><br><span class="line">  -DCLANG_DEFAULT_RTLIB=compiler-rt \</span><br><span class="line">  -DLLVM_ENABLE_RUNTIMES=&quot;compiler-rt;libcxx;libcxxabi;libunwind&quot; \</span><br><span class="line">  -DLIBCXX_USE_COMPILER_RT=YES \</span><br><span class="line">  -DLIBCXXABI_USE_COMPILER_RT=YES \</span><br><span class="line">  -DLIBCXXABI_USE_LLVM_UNWINDER=YES \</span><br><span class="line">  -DLIBUNWIND_USE_COMPILER_RT=Yes \</span><br><span class="line">  -DBOOTSTRAP_CMAKE_BUILD_TYPE=Release \</span><br><span class="line">  -DBOOTSTRAP_LLVM_ENABLE_PROJECTS=&quot;clang;lld;lldb;pstl&quot; \</span><br><span class="line">  -DBOOTSTRAP_LLVM_ENABLE_RUNTIMES=&quot;compiler-rt;libc;libcxx;libcxxabi;libunwind&quot; \</span><br><span class="line">  -DBOOTSTRAP_CLANG_DEFAULT_CXX_STDLIB=libc++ \</span><br><span class="line">  -DBOOTSTRAP_CLANG_DEFAULT_RTLIB=compiler-rt \</span><br><span class="line">  -DBOOTSTRAP_LIBCXX_USE_COMPILER_RT=YES \</span><br><span class="line">  -DBOOTSTRAP_LIBCXXABI_USE_COMPILER_RT=YES \</span><br><span class="line">  -DBOOTSTRAP_LIBCXXABI_USE_LLVM_UNWINDER=YES \</span><br><span class="line">  -DBOOTSTRAP_LLVM_USE_LINKER=lld \</span><br><span class="line">  -DBOOTSTRAP_LIBUNWIND_USE_COMPILER_RT=Yes \</span><br><span class="line">  ../src/llvm</span><br><span class="line">ninja </span><br><span class="line">ninja stage2</span><br></pre></td></tr></table></figure>
+<h2 id="存在的问题">存在的问题</h2>
+<ol type="1">
+<li>PSTL老是打包不进去（正在修复，见<span class="exturl" data-url="aHR0cHM6Ly9yZXZpZXdzLmxsdm0ub3JnL0QxNDE3Nzk=">D141779 [libc++][PSTL] Copy the
+headers into libc++<i class="fa fa-external-link-alt"></i></span>）；</li>
+<li>libc好像不能自举。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>工具</category>
+        <category>clang</category>
+      </categories>
+      <tags>
+        <tag>工具</tag>
+        <tag>C/C++</tag>
+        <tag>编译器</tag>
+        <tag>clang</tag>
+        <tag>自举</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>newBing使用感想</title>
+    <url>/posts/1692619748/</url>
+    <content><![CDATA[<p>最近随大流使用了一下最近很火的AI，因为ChatGPT比较卡，主要使用的是NewBing，这里总结一下感想。
+<span id="more"></span></p>
+<h2 id="优点">优点</h2>
+<ol type="1">
+<li>搜索能力大突破，新时代搜索引擎。能快速整理以前搜索能力搜不到的东西。</li>
+<li>可以用中文搜英语，毕竟第二语言经常不熟的东西找不到合适关键字，相当于模糊搜索能力大加强。</li>
+</ol>
+<h2 id="缺点">缺点</h2>
+<ol type="1">
+<li>会一本正经胡说八道，你必须会这个领域的常识才能用，会的越多，查得越多，和传统搜索引擎一致。</li>
+<li>微软限制得太死，经常莫名其妙就拒绝下一句了。</li>
+<li>推理能力还是很弱，搜索引擎搜不到的非符号逻辑能处理的就完蛋。</li>
+</ol>
+<h2 id="总结">总结</h2>
+<p>AI会改变生活，但是AI真的还是工具而没有人格，学会使用它们吧。</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>杂谈</tag>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vcpkg使用经验</title>
+    <url>/posts/1120851791/</url>
+    <content><![CDATA[<h2 id="缘起">缘起</h2>
+<p>由于某人之前用c++写了个项目，然后要引boost库（其实就为了个特殊函数），非常麻烦，然后折腾搞vcpkg了，这里把一些经验和大家分享吧。
+<span id="more"></span></p>
+<h2 id="vcpkg安装与下载">vcpkg安装与下载</h2>
+<p>打开<span class="exturl" data-url="aHR0cHM6Ly92Y3BrZy5pby9lbi9nZXR0aW5nLXN0YXJ0ZWQuaHRtbA==">vcpkg官网<i class="fa fa-external-link-alt"></i></span>，可以看到Windows、Linux和Mac版安装指南，照上面安装。(因为我没有mac，所以可能要自己读官网文档)</p>
+<p>需要安装git和该平台c++编译器(Windows-VS,Linux-g++)。</p>
+<p>Windows: <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/Microsoft/vcpkg.git</span><br><span class="line">.\vcpkg\bootstrap<span class="literal">-vcpkg</span>.bat <span class="literal">-disableMetrics</span></span><br></pre></td></tr></table></figure> Linux <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/Microsoft/vcpkg.git</span><br><span class="line">./vcpkg/bootstrap-vcpkg.sh -disableMetrics</span><br></pre></td></tr></table></figure></p>
+<h2 id="安装包">安装包</h2>
+<p>一般安装本平台默认包，直接输入(以boost为例): <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">./vcpkg install boost</span><br></pre></td></tr></table></figure>
+Windows是x86-windows（今年改成x64-windows），Linux是x64-linux（都是动态库）。</p>
+<h3 id="覆盖初始triplet">覆盖初始triplet</h3>
+<p>现在一般Windows也是64位了，所以一般需要设置环境变量： <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">VCPKG_DEFAULT_TRIPLET = x64-windows</span><br></pre></td></tr></table></figure>
+假如只是临时需要安装其他triplet，可以输入: <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">./vcpkg install boost --triplet=x64-windows-static</span><br></pre></td></tr></table></figure> 或者
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">./vcpkg install boost:x64-windows-static</span><br></pre></td></tr></table></figure></p>
+<h3 id="android安卓环境变量设置">Android（安卓）环境变量设置</h3>
+<p>编译Android版库，需要设置<code>ANDROID_NDK_HOME</code>环境变量：
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">export ANDROID_NDK_HOME=/home/your-account/Android/android-ndk-r21b</span><br></pre></td></tr></table></figure></p>
+<h2 id="一些常用命令">一些常用命令</h2>
+<ol type="1">
+<li><code>./vcpkg list xxx</code>：列出已安装包中的<code>xxx</code>，未输入<code>xxx</code>则列出全部；</li>
+<li><code>./vcpkg search xxx</code>：搜索已安装包中的<code>xxx</code>；</li>
+<li><code>./vcpkg remove xxx</code>：卸载已安装包中的<code>xxx</code>；</li>
+<li><code>git pull &amp;&amp; ./vcpkg update</code>：更新vcpkg并检查包更新。</li>
+</ol>
+<h2 id="覆盖triplet">覆盖triplet</h2>
+<p>有时候要指定编译器和对应标准库怎么办呢，完整地更改一般比较麻烦，可以采用覆盖默认triplet的<span class="exturl" data-url="aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLWNuL3ZjcGtnL3VzZXJzL2V4YW1wbGVzL292ZXJsYXktdHJpcGxldHMtbGludXgtZHluYW1pYw==">方法<i class="fa fa-external-link-alt"></i></span>，以Linux
+clang为例。 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir custom-triplets</span><br><span class="line">cp vcpkg/triplets/x64-linux.cmake custom-triplets/x64-linux-dynamic.cmake</span><br><span class="line">mv custom-triplets/x64-linux-dynamic.cmake custom-triplets/x64-linux.cmake</span><br><span class="line">cp vcpkg/triplets/x64-linux.cmake custom-triplets/x64-linux-clang.cmake</span><br></pre></td></tr></table></figure>
+并修改<code>custom-triplets/x64-linux-clang.cmake</code>以匹配以下内容：
+<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line"><span class="comment"># ~/git/custom-triplets/x64-linux-clang.cmake</span></span><br><span class="line"><span class="keyword">set</span>(VCPKG_TARGET_ARCHITECTURE x64)</span><br><span class="line"><span class="keyword">set</span>(VCPKG_CRT_LINKAGE dynamic)</span><br><span class="line"><span class="keyword">set</span>(VCPKG_LIBRARY_LINKAGE static)</span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span>(VCPKG_CMAKE_SYSTEM_NAME Linux)</span><br><span class="line"><span class="keyword">set</span>(VCPKG_CHAINLOAD_TOOLCHAIN_FILE <span class="string">&quot;custom-triplets/clang-toolchain.cmake&quot;</span>) <span class="comment">#记得改成绝对路径</span></span><br></pre></td></tr></table></figure> 并创建<code>custom-triplets/clang-toolchain.cmake</code>：
+<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line"><span class="keyword">set</span>(CMAKE_C_COMPILER <span class="string">&quot;/usr/bin/clang&quot;</span>)</span><br><span class="line"><span class="keyword">set</span>(CMAKE_CXX_COMPILER <span class="string">&quot;/usr/bin/clang++&quot;</span>)</span><br><span class="line"><span class="keyword">set</span>(CMAKE_EXE_LINKER_FLAGS <span class="string">&quot;$&#123;CMAKE_EXE_LINKER_FLAGS&#125; -stdlib=libc++ -lc++abi&quot;</span>)</span><br></pre></td></tr></table></figure> 最后输入:(这一步要在custom-triplets的上一级文件夹进行)
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">./vcpkg install boost:x64-linux-clang --overlay-triplets=custom-triplets</span><br></pre></td></tr></table></figure></p>
+<h3 id="我用的自定义triplet">我用的自定义triplet</h3>
+<p>见<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0xlZW5IYXdrL215LXZjcGtnLXRyaXBsZXRz">GitHub仓库<i class="fa fa-external-link-alt"></i></span>和同步的<span class="exturl" data-url="aHR0cHM6Ly9naXRlZS5jb20vTGVlbkhhd2svbXktdmNwa2ctdHJpcGxldHM=">Gitee仓库<i class="fa fa-external-link-alt"></i></span>。</p>
+<h2 id="一些已知的坑">一些已知的坑</h2>
+<h3 id="mingw">Mingw</h3>
+<p>Mingw没有Python和有关包，因为Python官方并不支持Mingw，见<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL21pY3Jvc29mdC92Y3BrZy9wdWxsLzI1Njk5">此issue<i class="fa fa-external-link-alt"></i></span>。</p>
+<h3 id="boost">boost</h3>
+<p><code>boost</code>库不能直接输入<code>./vcpkg remove boost</code>，而应该是<code>./vcpkg remove boost-uninstall</code>。</p>
+<h2 id="bug和其他问题提交">Bug和其他问题提交</h2>
+<p>上<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL21pY3Jvc29mdC92Y3BrZw==">Github
+vcpkg仓库<i class="fa fa-external-link-alt"></i></span>提issue，官方triplet会及时修bug，社区triplet要足够详细。Port没更新提一下几天之内就会更新。</p>
+<p>更多vcpkg可见<span class="exturl" data-url="aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLWNuL3ZjcGtnLw==">微软官网教程<i class="fa fa-external-link-alt"></i></span>。</p>
+]]></content>
+      <categories>
+        <category>工具</category>
+        <category>vcpkg</category>
+      </categories>
+      <tags>
+        <tag>工具</tag>
+        <tag>C/C++</tag>
+        <tag>vcpkg</tag>
+        <tag>cmake</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Intel oneapi安装指南</title>
+    <url>/posts/41924884/</url>
+    <content><![CDATA[<p>Intel
+oneapi是一个跨架构的软件开发平台，它提供了一系列的工具和库，让开发者可以利用Intel的CPU、GPU、FPGA等不同类型的硬件资源，编写高效、可移植、可扩展的应用程序。Intel
+oneapi包括了多个组件，其中之一就是Intel Fortran Compiler（ifx）。</p>
+<p>ifx是一个基于LLVM技术的Fortran编译器，它支持Fortran
+2018的完整语言特性，包括Coarrays。ifx还支持OpenMP
+5.0/5.1的指令和离线功能，让开发者可以轻松地表达对Intel
+GPU的并行计算需求。ifx与传统的Intel Fortran Compiler
+Classic（ifort）兼容，可以使用相同的二进制文件和模块文件。ifx是oneapi
+HPC Toolkit中提供的两个Fortran编译器之一，另一个是ifort。</p>
+<p>今天来介绍一下怎么安装。 <span id="more"></span></p>
+<p>总的来说，可以进<span class="exturl" data-url="aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RldmVsb3Blci90b29scy9vbmVhcGkvdG9vbGtpdHMuaHRtbA==">intel
+oneapi tookit 官方网站<i class="fa fa-external-link-alt"></i></span>查看安装说明。</p>
+<h2 id="linux">Linux</h2>
+<p>在Linux上用包管理器安装比较简单，如下（以包含ifx的hpckit为例）：
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wget -O- https://apt.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW-PRODUCTS.PUB \ | gpg --dearmor | sudo tee /usr/share/keyrings/oneapi-archive-keyring.gpg &gt; /dev/null</span><br><span class="line">echo &quot;deb [signed-by=/usr/share/keyrings/oneapi-archive-keyring.gpg] https://apt.repos.intel.com/oneapi all main&quot; | sudo tee /etc/apt/sources.list.d/oneAPI.list</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt install intel-hpckit</span><br><span class="line">source /opt/intel/oneapi/setvars.sh</span><br></pre></td></tr></table></figure></p>
+<h2 id="windows">Windows</h2>
+<p>Windows上要麻烦一些，但是这里还是写出来一下，毕竟windows上的Fortran编译器安装是相当麻烦的。</p>
+<p>（先装Visual Studio,然后先按以下步骤装intel oneapi
+basekit，那个组件都得选，其他一样，再装hpckit）</p>
+<ol type="1">
+<li>从<span class="exturl" data-url="aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RldmVsb3Blci90b29scy9vbmVhcGkvaHBjLXRvb2xraXQtZG93bmxvYWQuaHRtbA==">官网<i class="fa fa-external-link-alt"></i></span>下载intel
+oneapi hpckit的安装文件。</li>
+<li>运行安装文件，按照提示选择安装目录和组件（Fortran只需勾选“Intel®
+Fortran Compiler Classic &amp; Intel® Fortran
+Compiler”选项）。在组件选择界面，勾选“Visual Studio
+Integration”选项，以便将oneAPI工具集成到Visual Studio中。</li>
+<li>启动Visual
+Studio，并在菜单栏中选择“扩展”-&gt;“管理扩展”。在弹出的窗口中，检查是否有以下几个oneAPI相关的扩展：
+<ul>
+<li>Intel® oneAPI DPC++/C++ Project Templates</li>
+<li>Intel® oneAPI DPC++/C++ Compiler Integration</li>
+<li>Intel® oneAPI Code Analyzer</li>
+<li>Intel® Advisor Visual Studio Extension</li>
+<li>Intel® VTune™ Profiler Visual Studio Extension</li>
+</ul></li>
+<li>如果有任何缺失的扩展，可以参考这个<span class="exturl" data-url="aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RldmVsb3AvZG9jdW1lbnRhdGlvbi9nZXQtc3RhcnRlZC13aXRoLWludGVsLW9uZWFwaS1ocGMtd2luZG93cy90b3AvYmVmb3JlLXlvdS1iZWdpbi5odG1s">指南<i class="fa fa-external-link-alt"></i></span>来修复或添加缺失的oneAPI插件。</li>
+<li>验证安装是否成功，在Visual
+Studio中创建一个新项目，并从模板列表中选择语言“Fortran”-&gt;“Main
+Program Code”。编译并运行项目。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>工具</category>
+        <category>intel oneapi</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>工具介绍</tag>
+        <tag>运维</tag>
+        <tag>intel oneapi</tag>
+        <tag>Fortran</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>redisUnix套接字模式开启</title>
+    <url>/posts/4099561651/</url>
+    <content><![CDATA[<p>今天搞了几个小时redis套接字模式一直打不开，发现具体原因好弱智啊。
+<span id="more"></span></p>
+<h2 id="具体原因">具体原因</h2>
+<p>apt安装的redis-server对<code>/run</code>无读写权限，只对<code>/run/redis</code>有，所以<code>/etc/redis/redis.conf</code>那里只能改成：
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">unixsocket /run/redis/redis.sock</span><br><span class="line">unixsocketperm 777</span><br></pre></td></tr></table></figure>
+而不是默认的<code>/run/redis.sock</code>，也不是网上写的<code>/var/run/redis/redis.sock</code>，去看<code>/lib/systemd/system/redis-server.service</code>里的读写文件夹设置！</p>
+]]></content>
+      <categories>
+        <category>工具</category>
+        <category>redis</category>
+      </categories>
+      <tags>
+        <tag>运维</tag>
+        <tag>redis</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>两同样大小的正态分布阻值电阻并联总电阻均值证明</title>
+    <url>/posts/1012380595/</url>
+    <content><![CDATA[<h2 id="命题">命题：</h2>
+<p>两个阻值<span class="math inline">\(\displaystyle R_{1} ,R_{2} \sim
+N( R ,\sigma
+)\)</span>的电阻并联，求总电阻的期望。(注：过程极不严谨,充满主值积分)</p>
+<span id="more"></span>
+<h2 id="证明">证明：</h2>
+<p>总电阻为: <span class="math display">\[R=\frac{R_{1} R_{2}}{R_{1}
++R_{2}}\]</span> 则其期望为：</p>
+<p><span class="math display">\[
+\begin{gathered}
+\overline{R} =\int _{-\infty }^{+\infty }\int _{-\infty }^{+\infty
+}\frac{R_{1} R_{2}}{R_{1} +R_{2}}\frac{1}{\sqrt{2\pi } \sigma }
+e^{-\frac{( R_{1} -R)^{2}}{2\sigma ^{2}}}\frac{1}{\sqrt{2\pi } \sigma }
+e^{-\frac{( R_{2} -R)^{2}}{2\sigma ^{2}}}\mathrm{d} R_{1}\mathrm{d}
+R_{2}\\
+=\frac{1}{2\pi \sigma ^{2}}\int _{-\infty }^{+\infty }\int _{-\infty
+}^{+\infty }\frac{R_{1} R_{2}}{R_{1} +R_{2}} e^{-\frac{( R_{1}
+-R)^{2}}{2\sigma ^{2}}} e^{-\frac{( R_{2} -R)^{2}}{2\sigma
+^{2}}}\mathrm{d} R_{1}\mathrm{d} R_{2}\\
+=\frac{1}{2\pi \sigma ^{2}}\int _{-\infty }^{+\infty }\int _{-\infty
+}^{+\infty }\frac{R_{1} R_{2}}{R_{1} +R_{2}} e^{-\frac{( R_{1} -R)^{2}
++( R_{2} -R)^{2}}{2\sigma ^{2}}}\mathrm{d} R_{1}\mathrm{d}
+R_{2}\end{gathered}
+\]</span></p>
+<p>令<span class="math inline">\(\displaystyle x=R_{1} +R_{2} ,y=R_{1}
+-R_{2}\)</span></p>
+<p><span class="math display">\[
+\begin{gathered}
+\frac{1}{4\pi \sigma ^{2}}\int _{-\infty }^{+\infty }\int _{-\infty
+}^{+\infty }\frac{x^{2} -y^{2}}{4x} e^{-\frac{y^{2}}{4\sigma ^{2}}}
+e^{-\frac{( x-2R)^{2}}{4\sigma ^{2}}}\mathrm{d} x\mathrm{d} y \notag\\
+=\frac{1}{4\pi \sigma ^{2}}\int _{-\infty }^{+\infty } e^{-\frac{(
+x-2R)^{2}}{4\sigma ^{2}}}\left[\int _{-\infty }^{+\infty
+}\left(\frac{x}{4} -\frac{y^{2}}{4x}\right) e^{-\frac{y^{2}}{4\sigma
+^{2}}}\mathrm{d} y\right]\mathrm{d} x\end{gathered}
+\]</span></p>
+<p>（1）中方括号中的式子可化为：</p>
+<p><span class="math display">\[
+\begin{gathered}
+\int _{-\infty }^{+\infty }\left(\frac{x}{4} -\frac{y^{2}}{4x}\right)
+e^{-\frac{y^{2}}{4\sigma ^{2}}}\mathrm{d} y=\frac{x}{4}\int _{-\infty
+}^{+\infty } e^{-\frac{y^{2}}{2\left(\sqrt{2} \sigma \right) \
+^{2}}}\mathrm{d} y-\int _{-\infty }^{+\infty }\frac{y^{2}}{4x}
+e^{-\frac{y^{2}}{4\sigma ^{2}}}\mathrm{d} y \notag\\
+=\frac{x}{4} 2\sqrt{\pi } \sigma \frac{1}{\sqrt{2\pi }\sqrt{2} \sigma
+}\int _{-\infty }^{+\infty } e^{-\frac{y^{2}}{2\left(\sqrt{2} \sigma
+\right) \ ^{2}}}\mathrm{d} y-\int _{-\infty }^{+\infty }\frac{y^{2}}{4x}
+e^{-\frac{y^{2}}{4\sigma ^{2}}}\mathrm{d} y \notag\\
+=\frac{\sqrt{\pi } \sigma x}{2} -\int _{-\infty }^{+\infty
+}\frac{y^{2}}{4x} e^{-\frac{y^{2}}{4\sigma ^{2}}}\mathrm{d}
+y\end{gathered}
+\]</span></p>
+<p>（2）式中的余项可化为：</p>
+<p><span class="math display">\[
+\begin{gathered}
+\int _{-\infty }^{+\infty }\frac{y^{2}}{4x} e^{-\frac{y^{2}}{4\sigma
+^{2}}}\mathrm{d} y=2\int _{0}^{+\infty }\frac{y^{2}}{4x}
+e^{-\frac{y^{2}}{4\sigma ^{2}}}\mathrm{d} y=\int _{0}^{+\infty
+}\frac{\sigma ^{2} y}{x}\mathrm{d}\left( e^{-\frac{y^{2}}{4\sigma
+^{2}}}\right)\\
+=-\frac{\sigma ^{2} y}{x} e^{-\frac{y^{2}}{4\sigma ^{2}}}| _{0}^{+\infty
+} +\int _{-\infty }^{+\infty }\frac{\sigma ^{2}}{2x}
+e^{-\frac{y^{2}}{4\sigma ^{2}}}\mathrm{d} y\\
+=2\sqrt{\pi } \sigma \frac{\sigma ^{2}}{2x}\\
+=\frac{\sqrt{\pi } \sigma ^{3}}{x}
+\end{gathered}
+\]</span></p>
+<p>故(2)式可化为：</p>
+<p><span class="math display">\[
+( 2) =\frac{\sqrt{\pi } \sigma x}{2} -\frac{\sqrt{\pi } \sigma ^{3}}{x}
+=\frac{\sqrt{\pi } \sigma }{2}\left( x-\frac{2\sigma ^{2}}{x}\right)
+\]</span></p>
+<p>故(1)式可化为：</p>
+<p><span class="math display">\[
+\begin{gathered}
+=\frac{1}{4\pi \sigma ^{2}}\int _{-\infty }^{+\infty } e^{-\frac{(
+x-2R)^{2}}{4\sigma ^{2}}}\left[\frac{\sqrt{\pi } \sigma x}{2}
+-\frac{\sqrt{\pi } \sigma ^{3}}{x}\right]\mathrm{d} x \notag\\
+=\frac{1}{4\sqrt{2\pi }\sqrt{2} \sigma }\int _{-\infty }^{+\infty
+}\left( x-\frac{2\sigma ^{2}}{x}\right) e^{-\frac{( x-2R)^{2}}{4\sigma
+^{2}}}\mathrm{d} x \notag\\
+=\frac{R}{2} -\frac{\sigma }{4\sqrt{\pi }}\int _{-\infty }^{+\infty
+}\frac{1}{x} e^{-\frac{( x-2R)^{2}}{4\sigma ^{2}}}\mathrm{d}
+x\end{gathered}
+\]</span></p>
+<p>令<span class="math inline">\(\displaystyle u=\frac{x}{2\sigma }
+,v=u-\frac{R}{\sigma }
+,w=v^{2}\)</span>（3）中的积分表达式可进一步化为（此处<span
+class="math inline">\(\operatorname{Ei}(x)=-\int_{-x}^{\infty}
+\frac{e^{-t} d t}{t}\)</span>为指数积分函数）：</p>
+<p><span class="math display">\[
+\begin{gathered}
+\int _{-\infty }^{+\infty }\frac{1}{x} e^{-\frac{( x-2R)^{2}}{4\sigma
+^{2}}}\mathrm{d} x=\int _{-\infty }^{+\infty }\frac{1}{u} e^{-\left(
+u-\frac{R}{\sigma }\right)^{2}}\mathrm{d} u\\
+=\int _{-\infty }^{+\infty }\frac{1}{v+\frac{R}{\sigma }}
+e^{-v^{2}}\mathrm{d} v\\
+=\int _{-\infty }^{0}\frac{1}{v+\frac{R}{\sigma }} e^{-v^{2}}\mathrm{d}
+v+\int _{0}^{+\infty }\frac{1}{v+\frac{R}{\sigma }} e^{-v^{2}}\mathrm{d}
+v\\
+=\int _{0}^{+\infty }\left(\frac{1}{v-\frac{R}{\sigma }}
++\frac{1}{v+\frac{R}{\sigma }}\right) e^{-v^{2}}\mathrm{d} v\\
+=\int _{0}^{+\infty }\frac{2v}{v^{2} -\frac{R^{2}}{\sigma ^{2}}}
+e^{-v^{2}}\mathrm{d} v\\
+=\int _{0}^{+\infty }\frac{e^{-v^{2}}}{v^{2} -\frac{R^{2}}{\sigma
+^{2}}}\mathrm{d} v^{2}\\
+=\int _{0}^{+\infty }\frac{e^{-w}}{w-\frac{R^{2}}{\sigma
+^{2}}}\mathrm{d} w\\
+=-e^{-\frac{R^{2}}{\sigma ^{2}}} E_{i}\left(\frac{R^{2}}{\sigma
+^{2}}\right)\end{gathered}
+\]</span></p>
+<p>故所求总电阻为：</p>
+<p><span class="math display">\[
+\overline{R} =\frac{R}{2} +\frac{\sigma }{4\sqrt{\pi }}
+e^{-\frac{R^{2}}{\sigma ^{2}}} E_{i}\left(\frac{R^{2}}{\sigma
+^{2}}\right)
+\]</span></p>
+<p>当<span class="math inline">\(\displaystyle \frac{R^{2}}{\sigma
+^{2}}\rightarrow \infty\)</span>时，<span
+class="math inline">\(\displaystyle ( 4)\rightarrow
+0\)</span>，与忽略阻值涨落相一致。</p>
+<p>因为阻值涨落导致的阻值偏差比率<span
+class="math inline">\(\displaystyle \frac{\Delta
+\overline{R}}{\frac{R}{2}} =\frac{\sigma }{2\sqrt{\pi } R}
+e^{-\frac{R^{2}}{\sigma ^{2}}} E_{i}\left(\frac{R^{2}}{\sigma
+^{2}}\right)\)</span>,记<span class="math inline">\(\displaystyle
+x=\frac{\sigma }{R}\)</span>,则有<span
+class="math inline">\(\displaystyle \frac{\Delta
+\overline{R}}{\frac{R}{2}} =g( x) =\frac{x}{2\sqrt{\pi }}
+e^{-\frac{1}{x^{2}}} E_{i}\left(\frac{1}{x^{2}}\right)\)</span>。</p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9jZG4ubGVlbmhhd2suY29tL2ltYWdlcy8xLyVFNCVCOCVBNCVFNSU5MCU4QyVFNiVBMCVCNyVFNSVBNCVBNyVFNSVCMCU4RiVFNyU5QSU4NCVFNiVBRCVBMyVFNiU4MCU4MSVFNSU4OCU4NiVFNSVCOCU4MyVFOSU5OCVCQiVFNSU4MCVCQyVFNyU5NCVCNSVFOSU5OCVCQiVFNSVCOSVCNiVFOCU4MSU5NCVFNiU4MCVCQiVFNyU5NCVCNSVFOSU5OCVCQiVFNSU5RCU4NyVFNSU4MCVCQyVFOCVBRiU4MSVFNiU5OCU4RS5zdmc=">余项带来的误差<i class="fa fa-external-link-alt"></i></span></p>
+<p>在<span class="math inline">\(\displaystyle x\rightarrow
+0\)</span>时，<span class="math inline">\(\displaystyle g( x)\rightarrow
+\frac{x^{3}}{2\sqrt{\pi }}\)</span></p>
+]]></content>
+      <categories>
+        <category>证明</category>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>证明</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>常见Linux软件设置代理方法</title>
+    <url>/posts/2112920253/</url>
+    <content><![CDATA[<p>因为有些软件源不设代理实在太慢，所以这里记一下Linux上常见软件设置代理的方法。
+<span id="more"></span></p>
+<h2 id="获取代理监听ip和端口">获取代理监听ip和端口</h2>
+<p>在WSL上获取主机ip是： <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cat /etc/resolv.conf</span><br></pre></td></tr></table></figure> 端口看你电脑设置。</p>
+<h2 id="git设置代理">git设置代理</h2>
+<h3 id="永久方法">永久方法</h3>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git config --global http.proxy &lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;</span><br><span class="line">git config --global https.proxy &lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="临时方法">临时方法</h3>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git -c http.proxy=&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt; clone https://github.com/&lt;user&gt;/&lt;repository&gt;.git</span><br></pre></td></tr></table></figure>
+<h2 id="wget设置代理">wget设置代理</h2>
+<h3 id="永久方法-1">永久方法</h3>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">echo &quot;http_proxy=&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;&quot; &gt;&gt; ~/.wgetrc</span><br><span class="line">echo &quot;https_proxy=&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;&quot; &gt;&gt; ~/.wgetrc</span><br></pre></td></tr></table></figure>
+<h3 id="临时方法-1">临时方法</h3>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wget --proxy-user=&lt;username&gt; --proxy-password=&lt;password&gt; -e use_proxy=yes -e http_proxy=&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="curl设置代理">curl设置代理</h2>
+<h3 id="永久方法-2">永久方法</h3>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">echo &quot;export http_proxy=&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;&quot; &gt;&gt; ~/.bashrc</span><br><span class="line">echo &quot;export https_proxy=&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;&quot; &gt;&gt; ~/.bashrc</span><br><span class="line">source ~/.bashrc </span><br></pre></td></tr></table></figure>
+<h3 id="临时方法-2">临时方法</h3>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">curl -x &lt;protocol&gt;://[username:password@]&lt;host&gt;:&lt;port&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="apt设置代理">apt设置代理</h2>
+<h3 id="永久方法-3">永久方法</h3>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo echo &quot;Acquire::http::Proxy \&quot;http://[username:password@]&lt;host&gt;:&lt;port&gt;/\&quot;;&quot; &gt; /etc/apt/apt.conf </span><br><span class="line">sudo echo &quot;Acquire::https::Proxy \&quot;https://[username:password@]&lt;host&gt;:&lt;port&gt;/\&quot;;&quot; &gt;&gt; /etc/apt/apt.conf </span><br><span class="line">sudo apt update </span><br></pre></td></tr></table></figure>
+<h3 id="临时方法-3">临时方法</h3>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt-get -o Acquire::http::proxy=&quot;https://[username:password@]&lt;host&gt;:&lt;port&gt;&quot; update</span><br></pre></td></tr></table></figure>
+<h2 id="conda设置代理">conda设置代理</h2>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">conda config --set proxy_servers.http http://[username:password@]&lt;host&gt;:&lt;port&gt;</span><br><span class="line">conda config --set proxy_servers.https https://[username:password@]&lt;host&gt;:&lt;port&gt;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高等电动力学的一个证明</title>
+    <url>/posts/1376844091/</url>
+    <content><![CDATA[<h4 id="命题">命题：</h4>
+<p>对平面波<span class="math inline">\(\displaystyle E=\hat{e}_{x} E_{0}
+e^{ikz} =\hat{e}_{x} E_{0} e^{ikr\cos \theta
+}\)</span>按矢量球波函数进行展开。</p>
+<p>其中，<span class="math inline">\(\displaystyle \hat{e}_{x} =\sin
+\theta \cos \phi \hat{e}_{r} +\cos \theta \cos \phi \hat{e}_{\theta }
+-\sin \phi \hat{e}_{\phi }\)</span>。</p>
+<span id="more"></span>
+<h4 id="证明">证明：</h4>
+<p>矢量球波函数： <span class="math display">\[\begin{gathered}
+\vec{M}_{emn} =\frac{-m}{\sin \theta }\sin( m\phi ) P_{n}^{m}(\cos
+\theta ) z_{n}( kr)\hat{e}_{\theta } -\cos( m\phi )\frac{\mathrm{d}
+P_{n}^{m}(\cos \theta )}{\mathrm{d} \theta } z_{n}( kr)\hat{e}_{\phi }\\
+\vec{M}_{omn} =\frac{m}{\sin \theta }\cos( m\phi ) P_{n}^{m}(\cos \theta
+) z_{n}( kr)\hat{e}_{\theta } -\sin( m\phi )\frac{\mathrm{d}
+P_{n}^{m}(\cos \theta )}{\mathrm{d} \theta } z_{n}( kr)\hat{e}_{\phi }\\
+\vec{N}_{emn} =\frac{z_{n}( kr)}{kr}\cos( m\phi ) n( n+1) P_{n}^{m}(\cos
+\theta )\hat{e}_{r}\\
++\cos( m\phi )\frac{\mathrm{d} P_{n}^{m}(\cos \theta )}{\mathrm{d}
+\theta }\frac{1}{kr}\frac{\mathrm{d}}{\mathrm{d}( kr)}[( kr) z_{n}(
+kr)]\hat{e}_{\theta }\\
+-m\sin( m\phi )\frac{P_{n}^{m}(\cos \theta )}{\sin \theta
+}\frac{1}{kr}\frac{\mathrm{d}}{\mathrm{d}( kr)}[( kr) z_{n}(
+kr)]\hat{e}_{\phi }\\
+\vec{N}_{omn} =\frac{z_{n}( kr)}{kr}\sin( m\phi ) n( n+1) P_{n}^{m}(\cos
+\theta )\hat{e}_{r}\\
++\sin( m\phi )\frac{\mathrm{d} P_{n}^{m}(\cos \theta )}{\mathrm{d}
+\theta }\frac{1}{kr}\frac{\mathrm{d}}{\mathrm{d}( kr)}[( kr) z_{n}(
+kr)]\hat{e}_{\theta }\\
++m\cos( m\phi )\frac{P_{n}^{m}(\cos \theta )}{\sin \theta
+}\frac{1}{kr}\frac{\mathrm{d}}{\mathrm{d}( kr)}[( kr) z_{n}(
+kr)]\hat{e}_{\phi }\end{gathered}\]</span> 其中，<span
+class="math inline">\(\displaystyle
+z_{n}\)</span>可以是四个球贝塞尔函数<span
+class="math inline">\(\displaystyle \left\{j_{n} ,y_{n} ,h_{n}^{( 1)}
+,h_{n}^{( 2)}\right\}\)</span>之中的任意一个。</p>
+<p>对于平面波： <span class="math display">\[E=\hat{e}_{x} E_{0}
+e^{ikr\cos \theta } =\hat{e}_{x} =E_{0} e^{ikr\cos \theta }(\sin \theta
+\cos \phi \hat{e}_{r} +\cos \theta \cos \phi \hat{e}_{\theta } -\sin
+\phi \hat{e}_{\phi })\]</span>
+由矢量球波函数的各分量特点，首先考虑使用<span
+class="math inline">\(\displaystyle \vec{N}_{emn}
+、\vec{N}_{omn}\)</span>组合出<span class="math inline">\(\displaystyle
+\hat{e}_{r}\)</span>分量。</p>
+<p>考虑<span class="math inline">\(\displaystyle
+\phi\)</span>的变化规律，则<span class="math inline">\(\displaystyle
+m=1\)</span> <span class="math display">\[\begin{gathered}
+N_{e1n}^{( r)} =\frac{z_{n}( kr)}{kr}\cos \phi n( n+1) P_{n}^{1}(\cos
+\theta )\\
+N_{o1n}^{( r)} =\frac{z_{n}( kr)}{kr}\sin \phi n( n+1) P_{n}^{1}(\cos
+\theta )\end{gathered}\]</span> 考虑<span
+class="math inline">\(\displaystyle
+\phi\)</span>的对称性，<strong>则在展开中只存在</strong><span
+class="math inline">\(\displaystyle N_{e1n}^{(
+r)}\)</span><strong>项,</strong><span
+class="math inline">\(\displaystyle A_{o1n}
+=0\)</span><strong>（同理可得</strong><span
+class="math inline">\(\displaystyle B_{e1n}
+=0\)</span><strong>）。</strong></p>
+<p>那么命题变为考虑<span class="math inline">\(\displaystyle
+A_{emn}\)</span>（记为<span class="math inline">\(\displaystyle
+A_{n}\)</span>），使得 <span class="math display">\[E_{0} e^{ikr\cos
+\theta }\sin \theta =\sum _{n=1}^{\infty } A_{n}\frac{z_{n}( kr)}{kr} n(
+n+1) P_{n}^{1}(\cos \theta )\]</span> 取<span
+class="math inline">\(\displaystyle z_{n} =j_{n}\)</span>，则命题变为：
+<span class="math display">\[E_{0} e^{ikr\cos \theta }\sin \theta =\sum
+_{n=1}^{\infty } A_{n} n( n+1)\frac{j_{n}( kr)}{kr} P_{n}^{1}(\cos
+\theta )\]</span> 由连带勒让德函数正交关系： <span
+class="math display">\[\begin{gathered}
+\int _{-1}^{1} P_{l}^{m}( x) P_{k}^{m}( x)\mathrm{d} x=\frac{( l+m) !}{(
+l-m) !}\frac{2}{2l+1} \delta _{kl}\\
+\int _{-1}^{1} P_{l}^{1}( x) P_{k}^{1}( x)\mathrm{d} x=\frac{2( l+1)
+l}{2l+1} \delta _{kl}\end{gathered}\]</span> 对（1）式乘<span
+class="math inline">\(\displaystyle P_{l}^{1}(\cos \theta
+)\)</span>并对<span class="math inline">\(\displaystyle \cos
+\theta\)</span>求积分，可得： <span
+class="math display">\[\begin{gathered}
+\int _{-1}^{1} E_{0} e^{ikr\cos \theta }\sin \theta P_{l}^{1}(\cos
+\theta )\mathrm{d}(\cos \theta ) =\sum _{n=1}^{\infty } A_{n} n(
+n+1)\frac{j_{n}( kr)}{kr}\int _{-1}^{1} P_{n}^{1}(\cos \theta )
+P_{l}^{1}(\cos \theta )\mathrm{d}(\cos \theta ) \notag\\
+=\sum _{n=1}^{\infty } A_{n} n( n+1)\frac{j_{n}( kr)}{kr}\frac{2( l+1)
+l}{2l+1} \delta _{ln}\\
+=A_{l} l( l+1)\frac{j_{l}( kr)}{kr}\frac{2( l+1) l}{2l+1}
+\notag\end{gathered}\]</span> 继续计算需要得到<span
+class="math inline">\(\displaystyle K_{n}( x) =\frac{j_{n}(
+x)}{x}\)</span>的正交关系： <span class="math display">\[\int
+_{0}^{\infty } K_{m}( x) K_{n}( x)\mathrm{d}
+x=-\frac{8\sin\left(\frac{1}{2} \pi
+(m-n)\right)}{(m-n-2)(m-n)(m-n+2)(m+n-1)(m+n+1)(m+n+3)}\]</span> <span
+class="math inline">\(\displaystyle K_{n}( x)\)</span>不是正交的，但有：
+<span class="math display">\[\int _{0}^{\infty } K_{n}( x) K_{n}(
+x)\mathrm{d} x=\frac{\pi }{8n^{3} +12n^{2} -2n-3} =\frac{\pi }{8\left(
+n+\frac{3}{2}\right)\left( n-\frac{1}{2}\right)\left(
+n+\frac{1}{2}\right)}\]</span> 这不影响我们的结果，（2）两边乘<span
+class="math inline">\(\displaystyle K_{l}( kr)\)</span>，对<span
+class="math inline">\(\displaystyle kr\)</span>求积分： <span
+class="math display">\[\begin{gathered}
+\int _{0}^{\infty }\int _{-1}^{1} E_{0} e^{ikr\cos \theta }\sin \theta
+P_{l}^{1}(\cos \theta )\frac{j_{l}( kr)}{kr}\mathrm{d}(\cos \theta
+)\mathrm{d}( kr) =\int _{0}^{\infty } A_{l} l( l+1)\frac{2( l+1)
+l}{2l+1} K_{l}^{2}( kr)\mathrm{d}( kr)\\
+=A_{l} l( l+1)\frac{( l+1) l}{2l+1}\frac{\pi }{4\left(
+l+\frac{3}{2}\right)\left( l-\frac{1}{2}\right)\left(
+l+\frac{1}{2}\right)}\end{gathered}\]</span> 可得： <span
+class="math display">\[A_{l} =\frac{2l+1}{( l+1)^{2} l^{2}}\frac{4\left(
+l+\frac{3}{2}\right)\left( l-\frac{1}{2}\right)\left(
+l+\frac{1}{2}\right)}{\pi }\int _{0}^{\infty }\int _{-1}^{1} E_{0}
+e^{ikr\cos \theta }\sin \theta P_{l}^{1}(\cos \theta )\frac{j_{l}(
+kr)}{kr}\mathrm{d}(\cos \theta )\mathrm{d}( kr)\]</span></p>
+<p>后半部分积分： <span class="math display">\[\begin{gathered}
+\int _{0}^{\infty }\int _{-1}^{1} E_{0} e^{ikr\cos \theta }\sin \theta
+P_{l}^{1}(\cos \theta )\frac{j_{l}( kr)}{kr}\mathrm{d}(\cos \theta
+)\mathrm{d}( kr)\\
+=E_{0}\int _{0}^{\infty }\frac{j_{l}( kr)}{kr}\left[\int _{-1}^{1}
+e^{ikr\cos \theta }\sin \theta P_{l}^{1}(\cos \theta )\mathrm{d}(\cos
+\theta )\right]\mathrm{d}( kr)\end{gathered}\]</span> 由<span
+class="math inline">\(\displaystyle P_{l}^{1}(\cos \theta ) =-\left(
+1-\cos^{2} \theta \right)^{1/2}\frac{\mathrm{d} P_{l}(\cos \theta
+)}{\mathrm{d}(\cos \theta )}\)</span>,<span
+class="math inline">\(\displaystyle \theta \in ( 0,\pi )\)</span>,可得:
+<span class="math display">\[\begin{gathered}
+\int _{-1}^{1} e^{ikr\cos \theta }\sin \theta P_{l}^{1}(\cos \theta
+)\mathrm{d}(\cos \theta ) =\int _{-1}^{1} e^{ikr\cos \theta
+}\left(\sin^{2} \theta \right)\frac{\mathrm{d} P_{l}(\cos \theta
+)}{\mathrm{d}(\cos \theta )}\mathrm{d}(\cos \theta )\\
+=-\int _{-1}^{1} e^{ikrx}\left( x^{2} -1\right)\mathrm{d} P_{l}( x)\\
+=-\int _{-1}^{1} e^{ikrx} l[ xP_{l} (x)-P_{l-1} (x)]\mathrm{d}
+x\end{gathered}\]</span> mathematica进行计算符合命题。</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><span class="math inline">\(\displaystyle
+l\)</span></th>
+<th style="text-align: left;">1</th>
+<th style="text-align: left;">2</th>
+<th style="text-align: left;">3</th>
+<th style="text-align: left;">4</th>
+<th style="text-align: left;">5</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(\displaystyle
+( 4)\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\displaystyle
+\frac{4}{15} \pi\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\displaystyle
+-\frac{4i}{35} \pi\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\displaystyle
+\frac{8}{105} \pi\)</span>$ $</td>
+<td style="text-align: left;"><span class="math inline">\(\displaystyle
+\frac{40i}{693} \pi\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\displaystyle
+-\frac{20}{429} \pi\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>根据 <span class="math display">\[\begin{gathered}
+j_{n}( x) =\frac{i^{-n}}{2}\int _{0}^{\pi } e^{ix\cos \theta }
+P_{n}(\cos \theta )\sin \theta \mathrm{d} \theta \\
+=\frac{i^{-n}}{2}\int _{0}^{\pi } e^{ix\cos \theta } P_{n}(\cos \theta
+)\mathrm{d}\cos \theta \\
+=\frac{i^{-n}}{2}\int _{1}^{-1} e^{ixy} P_{n}( y)\mathrm{d}
+y\end{gathered}\]</span> <span class="math display">\[\begin{gathered}
+-\int _{0}^{\infty }\frac{j_{l}( kr)}{kr}\left[\int _{-1}^{1} e^{ikrx}
+l[ xP_{l} (x)-P_{l-1} (x)]\mathrm{d} x\right]\mathrm{d}( kr)\\
+=-\int _{0}^{\infty }\frac{j_{l}( y)}{y} l\left[\int _{-1}^{1} e^{ixy}[
+xP_{l} (x)-P_{l-1} (x)]\mathrm{d} x\right]\mathrm{d}
+y\end{gathered}\]</span> 根据<span class="math inline">\(\displaystyle
+xP_{l}( x) =\frac{1}{2l+1}[( l+1) P_{l+1}( x) +lP_{l-1}(
+x)]\)</span>,上式化为： <span class="math display">\[\begin{gathered}
+=-\int _{0}^{\infty }\frac{j_{l}( y)}{y} l\left\{\int _{-1}^{1}
+e^{ixy}\left[\frac{1}{2l+1}[( l+1) P_{l+1}( x) +lP_{l-1}( x)] -P_{l-1}
+(x)\right]\mathrm{d} x\right\}\mathrm{d} y\\
+=-\int _{0}^{\infty }\frac{j_{l}( y)}{y} l\left[\int _{-1}^{1}\frac{(
+l+1) e^{ixy}}{2l+1}[ P_{l+1} (x)-P_{l-1} (x)]\mathrm{d}
+x\right]\mathrm{d} y\\
+=-\int _{0}^{\infty }\frac{j_{l}( y)}{y}\frac{l( l+1)}{2l+1}\left[\int
+_{-1}^{1} e^{ixy}[ P_{l+1} (x)-P_{l-1} (x)]\mathrm{d} x\right]\mathrm{d}
+y\\
+=-\int _{0}^{\infty }\frac{j_{l}( y)}{y}\frac{l(
+l+1)}{2l+1}\frac{2}{i^{-n-1}}[ j_{l+1}( y) +j_{l-1}( y)]\mathrm{d} y\\
+=-i^{l+1}\frac{l( l+1)}{\left( l+\frac{1}{2}\right)}\frac{\pi }{4\left(
+l+\frac{3}{2}\right)\left( l-\frac{1}{2}\right)}\\
+=-i^{l+1}\frac{l( l+1) \pi }{4\left( l+\frac{3}{2}\right)\left(
+l-\frac{1}{2}\right)\left(
+l+\frac{1}{2}\right)}\end{gathered}\]</span></p>
+<p><strong>综上</strong>， <span class="math display">\[A_{e1n} =A_{n}
+=\frac{2n+1}{( n+1)^{2} n^{2}}\frac{4\left( n+\frac{3}{2}\right)\left(
+n-\frac{1}{2}\right)\left( n+\frac{1}{2}\right)}{\pi } *\left(
+i^{l+1}\frac{n( n+1) \pi }{4\left( n+\frac{3}{2}\right)\left(
+n-\frac{1}{2}\right)\left( n+\frac{1}{2}\right)}\right) =- E_{0}
+i^{n+1}\frac{2n+1}{n( n+1)}\]</span> 此时， <span
+class="math display">\[E=\sum _{n=1}^{\infty } -E_{0}
+i^{n+1}\frac{2n+1}{n( n+1)} N_{e1n}^{( 1)} +B_{o1n} M_{o1n}^{( 1)} E_{0}
+=E_{0} e^{ikr\cos \theta }(\sin \theta \cos \phi \hat{e}_{r} +\cos
+\theta \cos \phi \hat{e}_{\theta } -\sin \phi \hat{e}_{\phi })\]</span>
+接下来需要考虑<span class="math inline">\(\displaystyle \phi
+、\theta\)</span>方向，此时没有正交关系，将十分难以进行计算，于此补上<strong>正交关系证明</strong>：
+<span class="math display">\[\begin{gathered}
+\int _{0}^{2\pi }\int _{0}^{\pi } M_{em&#39;n&#39;} \cdotp M_{omn}\sin
+\theta \mathrm{d} \theta \mathrm{d} \phi \\
+=\int _{0}^{2\pi }\int _{0}^{\pi }\left(\frac{-m}{\sin \theta }\sin(
+m&#39;\phi ) P_{n&#39;}^{m&#39;}(\cos \theta ) z_{n&#39;}(
+kr)\hat{e}_{\theta } -\cos( m&#39;\phi )\frac{\mathrm{d}
+P_{n&#39;}^{m&#39;}(\cos \theta )}{\mathrm{d} \theta } z_{n&#39;}(
+kr)\hat{e}_{\phi }\right) \cdotp  \notag\\
+\left(\frac{m}{\sin \theta }\cos( m\phi ) P_{n}^{m}(\cos \theta ) z_{n}(
+kr)\hat{e}_{\theta } -\sin( m\phi )\frac{\mathrm{d} P_{n}^{m}(\cos
+\theta )}{\mathrm{d} \theta } z_{n}( kr)\hat{e}_{\phi }\right)\sin
+\theta \mathrm{d} \theta \mathrm{d} \phi  \notag\\
+=\int _{0}^{2\pi }\int _{0}^{\pi }\left(\frac{-m}{\sin \theta }\sin(
+m&#39;\phi ) P_{n&#39;}^{m&#39;}(\cos \theta ) z_{n&#39;}(
+kr)\right)\left(\frac{m}{\sin \theta }\cos( m\phi ) P_{n}^{m}(\cos
+\theta ) z_{n}( kr)\right)\hat{e}_{\theta } \notag\\
++\left(\cos( m&#39;\phi )\frac{\mathrm{d} P_{n&#39;}^{m&#39;}(\cos
+\theta )}{\mathrm{d} \theta } z_{n&#39;}( kr)\right)\left(\sin( m\phi
+)\frac{\mathrm{d} P_{n}^{m}(\cos \theta )}{\mathrm{d} \theta } z_{n}(
+kr)\right)\hat{e}_{\phi }\sin \theta \mathrm{d} \theta \mathrm{d}
+\phi  \notag\\
+=\int _{0}^{\pi }\left[\int _{0}^{2\pi }\cos( m\phi )\sin( m&#39;\phi
+)\mathrm{d} \phi \right]\left(\frac{-m}{\sin \theta }
+P_{n&#39;}^{m&#39;}(\cos \theta ) z_{n&#39;}(
+kr)\right)\left(\frac{m}{\sin \theta } P_{n}^{m}(\cos \theta ) z_{n}(
+kr)\right)\hat{e}_{\theta } \notag\\
++\left[\int _{0}^{2\pi }\cos( m&#39;\phi )\sin( m\phi )\mathrm{d} \phi
+\right]\left(\frac{\mathrm{d} P_{n&#39;}^{m&#39;}(\cos \theta
+)}{\mathrm{d} \theta } z_{n&#39;}( kr)\right)\left(\frac{\mathrm{d}
+P_{n}^{m}(\cos \theta )}{\mathrm{d} \theta } z_{n}(
+kr)\right)\hat{e}_{\phi }\sin \theta \mathrm{d}
+\theta  \notag\end{gathered}\]</span> 对于任意<span
+class="math inline">\(\displaystyle m,m&#39;\)</span>时, <span
+class="math display">\[\int _{0}^{2\pi }\cos( m&#39;\phi )\sin( m\phi
+)\mathrm{d} \phi =0\]</span> 故(4)式对任意<span
+class="math inline">\(\displaystyle
+m,m&#39;,n,n&#39;\)</span>都等于零。</p>
+<p>同理，对任意<span class="math inline">\(\displaystyle
+m,m&#39;,n,n&#39;\)</span>成立（提取<span
+class="math inline">\(\displaystyle \phi\)</span>方向即得） <span
+class="math display">\[\begin{gathered}
+\int _{0}^{\infty }\int _{0}^{2\pi }\int _{0}^{\pi } M_{em&#39;n&#39;}
+\cdotp N_{emn}\sin \theta \mathrm{d} \theta \mathrm{d} \phi \mathrm{d}
+r=0\\
+\int _{0}^{\infty }\int _{0}^{2\pi }\int _{0}^{\pi } N_{om&#39;n&#39;}
+\cdotp M_{omn}\sin \theta \mathrm{d} \theta \mathrm{d} \phi \mathrm{d}
+r=0\\
+\int _{0}^{\infty }\int _{0}^{2\pi }\int _{0}^{\pi } N_{em&#39;n&#39;}
+\cdotp N_{omn}\sin \theta \mathrm{d} \theta \mathrm{d} \phi \mathrm{d}
+r=0\end{gathered}\]</span> <span class="math display">\[\begin{gathered}
+\int _{0}^{\infty }\int _{0}^{2\pi }\int _{0}^{\pi } M_{om&#39;n&#39;}
+\cdotp N_{emn}\sin \theta \mathrm{d} \theta \mathrm{d} \phi \mathrm{d}
+r\\
+=\int _{0}^{\infty }\int _{0}^{2\pi }\int _{0}^{\pi
+}\{\left(\frac{m&#39;}{\sin \theta }\cos( m&#39;\phi )
+P_{n&#39;}^{m&#39;}(\cos \theta ) z_{n&#39;}( kr)\right)\left(\cos(
+m\phi )\frac{\mathrm{d} P_{n}^{m}(\cos \theta )}{\mathrm{d} \theta
+}\frac{1}{kr}\frac{\mathrm{d}}{\mathrm{d}( kr)}[( kr) z_{n}( kr)]\right)
+\notag\\
++\left( -\sin( m\phi )\frac{\mathrm{d} P_{n}^{m}(\cos \theta
+)}{\mathrm{d} \theta } z_{n}( kr)\right)\left( -m\sin( m\phi
+)\frac{P_{n}^{m}(\cos \theta )}{\sin \theta
+}\frac{1}{kr}\frac{\mathrm{d}}{\mathrm{d}( kr)}[( kr) z_{n}(
+kr)]\right)\}\sin \theta \mathrm{d} \theta \mathrm{d} \phi \mathrm{d} r
+\notag\end{gathered}\]</span> 当<span
+class="math inline">\(\displaystyle m&#39;\neq
+m\)</span>时，上式等于零，当<span class="math inline">\(\displaystyle
+m=m&#39;\)</span>时，上式化为： <span
+class="math display">\[\begin{gathered}
+=m\pi \int _{0}^{\infty }\int _{0}^{\pi }\{\left(\frac{1}{\sin \theta }
+P_{n‘}^{m}(\cos \theta ) z_{n}( kr)\right)\left(\frac{\mathrm{d}
+P_{n}^{m}(\cos \theta )}{\mathrm{d} \theta
+}\frac{1}{kr}\frac{\mathrm{d}}{\mathrm{d}( kr)}[( kr) z_{n}(
+kr)]\right)\\
++\left(\sin( m\phi )\frac{\mathrm{d} P_{n&#39;}^{m}(\cos \theta
+)}{\mathrm{d} \theta } z_{n&#39;}( kr)\right)\left(\frac{P_{n}^{m}(\cos
+\theta )}{\sin \theta }\frac{1}{kr}\frac{\mathrm{d}}{\mathrm{d}( kr)}[(
+kr) z_{n}( kr)]\right)\}\sin \theta \mathrm{d} \theta \mathrm{d} r\\
+=m\pi \int _{0}^{\infty }\int _{0}^{\pi }\{\left(\frac{1}{\sin \theta }
+P_{n‘}^{m}(\cos \theta ) z_{n}( kr)\right)\left(\frac{\mathrm{d}
+P_{n}^{m}(\cos \theta )}{\mathrm{d} \theta
+}\frac{1}{kr}\frac{\mathrm{d}}{\mathrm{d}( kr)}[( kr) z_{n}(
+kr)]\right)\\
++\left(\sin( m\phi )\frac{\mathrm{d} P_{n&#39;}^{m}(\cos \theta
+)}{\mathrm{d} \theta } z_{n&#39;}( kr)\right)\left(\frac{P_{n}^{m}(\cos
+\theta )}{\sin \theta }\frac{1}{kr}\frac{\mathrm{d}}{\mathrm{d}( kr)}[(
+kr) z_{n}( kr)]\right)\}\sin \theta \mathrm{d} \theta \mathrm{d}
+r\end{gathered}\]</span> 由于 <span
+class="math display">\[\begin{gathered}
+\int _{0}^{\pi }\frac{1}{\sin \theta } P_{n‘}^{m}(\cos \theta
+)\frac{\mathrm{d} P_{n}^{m}(\cos \theta )}{\mathrm{d} \theta }\sin
+\theta \mathrm{d} \theta \\
+=\int _{0}^{\pi } P_{n‘}^{m}(\cos \theta )\frac{\mathrm{d}
+P_{n}^{m}(\cos \theta )}{\mathrm{d} \theta }\mathrm{d} \theta \\
+=\int _{-1}^{1} P_{n&#39;}^{m}( x)\frac{\mathrm{d} P_{n}^{m}(
+x)}{\mathrm{d} x}\mathrm{d} x\\
+=\int _{-1}^{1} P_{n&#39;}^{m}( x)\mathrm{d}\left[ P_{n}^{m}(
+x)\right]\\
+=P_{n&#39;}^{m}( x) P_{n}^{m}( x) |_{-1}^{1} -\int _{-1}^{1} P_{n}^{m}(
+x)\mathrm{d}\left[ P_{n&#39;}^{m}( x)\right]\\
+=-\int _{-1}^{1} P_{n}^{m}( x)\mathrm{d}\left[ P_{n&#39;}^{m}(
+x)\right]\end{gathered}\]</span> 故(5)式恒等于0。</p>
+<p>所以，对任意<span class="math inline">\(\displaystyle
+m,m&#39;,n,n&#39;\)</span>成立 <span class="math display">\[\int
+_{0}^{\infty }\int _{0}^{2\pi }\int _{0}^{\pi } M_{om&#39;n&#39;} \cdotp
+N_{emn}\sin \theta \mathrm{d} \theta \mathrm{d} \phi \mathrm{d}
+r=0\]</span> 同理可得： <span class="math display">\[\int _{0}^{\infty
+}\int _{0}^{2\pi }\int _{0}^{\pi } N_{om&#39;n&#39;} \cdotp M_{emn}\sin
+\theta \mathrm{d} \theta \mathrm{d} \phi \mathrm{d} r=0\]</span> <span
+class="math display">\[\begin{gathered}
+E=\sum _{n=1}^{\infty }\left( -E_{0} i^{n+1}\frac{2n+1}{n( n+1)}
+N_{e1n}^{( 1)} +B_{o1n} M_{o1n}^{( 1)} E_{0}\right)\\
+=E_{0} e^{ikr\cos \theta }(\sin \theta \cos \phi \hat{e}_{r} +\cos
+\theta \cos \phi \hat{e}_{\theta } -\sin \phi \hat{e}_{\phi
+})\end{gathered}\]</span> <span class="math display">\[\vec{M}_{o1n}
+=\frac{1}{\sin \theta }\cos( \phi ) P_{n}^{1}(\cos \theta ) z_{n}(
+kr)\hat{e}_{\theta } -\sin( \phi )\frac{\mathrm{d} P_{n}^{1}(\cos \theta
+)}{\mathrm{d} \theta } z_{n}( kr)\hat{e}_{\phi }\]</span> <span
+class="math display">\[\begin{gathered}
+\int _{0}^{2\pi }\int _{0}^{\pi } M_{o1n} \cdotp M_{o1n}\sin \theta
+\mathrm{d} \theta \mathrm{d} \phi  \notag\\
+=\int _{0}^{2\pi }\int _{0}^{\pi }\left[\left(\frac{1}{\sin \theta
+}\cos( \phi ) P_{n}^{1}(\cos \theta ) z_{n}( kr)\right)^{2} +\left(\sin(
+\phi )\frac{\mathrm{d} P_{n}^{1}(\cos \theta )}{\mathrm{d} \theta }
+z_{n}( kr)\right)^{2}\right]\sin \theta \mathrm{d} \theta \mathrm{d}
+\phi  \notag\\
+=\pi ( z_{n}( kr))^{2}\int _{0}^{\pi }\left[\left(\frac{1}{\sin \theta }
+P_{n}^{1}(\cos \theta )\right)^{2} +\left(\frac{\mathrm{d}
+P_{n}^{1}(\cos \theta )}{\mathrm{d} \theta }\right)^{2}\right]\sin
+\theta \mathrm{d} \theta  \notag\\
+=\pi ( z_{n}( kr))^{2}\int _{0}^{\pi } -\left[\left(\frac{1}{\sin \theta
+} P_{n}^{1}(\cos \theta )\right)^{2} +\left(\frac{\mathrm{d}
+P_{n}^{1}(\cos \theta )}{\mathrm{d}\cos \theta }\frac{\mathrm{d}\cos
+\theta }{\mathrm{d} \theta }\right)^{2}\right]\mathrm{d}(\cos \theta )
+\notag\\
+=\pi ( z_{n}( kr))^{2}\int _{-1}^{1}\left[\left(\frac{\mathrm{d} P_{n}(
+x)}{\mathrm{d} x}\right)^{2} +\left(\frac{\mathrm{d} P_{n}^{1}(
+x)}{\mathrm{d} x}\right)^{2}\left( 1-x^{2}\right)\right]\mathrm{d}
+x\end{gathered}\]</span></p>
+<p>(6)式前半部分结果为： <span class="math display">\[\begin{gathered}
+\int _{-1}^{1}\left(\frac{\mathrm{d} P_{n}( x)}{\mathrm{d}
+x}\right)^{2}\mathrm{d} x\\
+=\int _{-1}^{1}\frac{\left( P_{n}^{1}( x)\right)^{2}}{1-x^{2}}\mathrm{d}
+x\\
+=n( n+1)\end{gathered}\]</span> （6）式后半部分变为： <span
+class="math display">\[\begin{gathered}
+\int _{-1}^{1}\left(\frac{\mathrm{d} P_{n}^{1}( x)}{\mathrm{d}
+x}\right)^{2}\left( 1-x^{2}\right)\mathrm{d} x \notag\\
+=\frac{1}{( 2n+1)^{2}}\int _{-1}^{1}\frac{\left[( n+1)^{2} P_{n-1}^{1}(
+x) -n^{2} P_{n+1}^{1}( x)\right]^{2}}{1-x^{2}}\mathrm{d} x \notag\\
+=\frac{-2( n+1)^{2} n^{2}}{( 2n+1)^{2}}\int _{-1}^{1}\frac{P_{n+1}^{1}(
+x) P_{n-1}^{1}( x)}{1-x^{2}}\mathrm{d} x+\frac{( n+1)^{4}( n-1) n}{(
+2n+1)^{2}} +\frac{n^{4}( n+2)( n+1)}{( 2n+1)^{2}}\end{gathered}\]</span>
+由于 <span class="math display">\[\begin{gathered}
+\int _{-1}^{1}\frac{P_{n+1}^{1}( x) P_{n-1}^{1}( x)}{1-x^{2}}\mathrm{d}
+x \notag\\
+=\int _{-1}^{1}\left(\frac{\mathrm{d} P_{n+1}( x)}{\mathrm{d}
+x}\right)\left(\frac{\mathrm{d} P_{n-1}( x)}{\mathrm{d} x}\right) \
+\mathrm{d} x \notag\\
+=\int _{-1}^{1}\frac{\mathrm{d} P_{n-1}( x)}{\mathrm{d} x}\left[( 2n+1)
+P_{n}( x) +\frac{\mathrm{d} P_{n-1}( x)}{\mathrm{d} x}\right]\mathrm{d}
+x \notag\\
+=( n-1) n+( 2n+1)\int _{-1}^{1}\frac{\mathrm{d} P_{n-1}( x)}{\mathrm{d}
+x} P_{n}( x)\mathrm{d} x\end{gathered}\]</span> 由于 <span
+class="math display">\[\begin{gathered}
+\int _{-1}^{1}\frac{\mathrm{d} P_{n-1}( x)}{\mathrm{d} x} P_{n}(
+x)\mathrm{d} x \notag\\
+=\int _{-1}^{1}\frac{n[ P_{n-1}( x) -xP_{n}( x)]}{1-x^{2}} P_{n}(
+x)\mathrm{d} x \notag\\
+=\int _{-1}^{1}\frac{n\left[ P_{n-1}( x) -\frac{1}{2n+1}[( n+1) P_{n+1}(
+x) +nP_{n-1}( x)]\right]}{1-x^{2}} P_{n}( x)\mathrm{d} x \notag\\
+=\int _{-1}^{1}\frac{n( n+1)[ P_{n-1}( x) -P_{n+1}( x)]}{( 2n+1)\left(
+1-x^{2}\right)} P_{n}( x)\mathrm{d} x \notag\\
+=\frac{n( n+1)}{2n+1}\int _{-1}^{1}\left[ P_{n-1}^{1}( x) -P_{n+1}^{1}(
+x)\right] P_{n}^{1}( x)\mathrm{d} x \notag\\
+=0\end{gathered}\]</span> 故 <span class="math display">\[( 8) =n(
+n-1)\]</span> 故 <span class="math display">\[( 7) =\frac{n( n+1)\left(
+2n^{2} -1\right)}{2n+1}\]</span> （6）式化为： <span
+class="math display">\[\begin{gathered}
+=\pi ( z_{n}( kr))^{2} n( n+1)\left[\frac{2n^{2} +2n}{2n+1}\right]\\
+=\pi ( z_{n}( kr))^{2}\frac{2n^{2}(
+n+1)^{2}}{2n+1}\end{gathered}\]</span> <span
+class="math display">\[\vec{M}_{o1n} =\frac{1}{\sin \theta }\cos( \phi )
+P_{n}^{1}(\cos \theta ) z_{n}( kr)\hat{e}_{\theta } -\sin( \phi
+)\frac{\mathrm{d} P_{n}^{1}(\cos \theta )}{\mathrm{d} \theta } z_{n}(
+kr)\hat{e}_{\phi }\]</span> <span
+class="math display">\[\begin{gathered}
+E=\hat{e}_{x} E_{0} e^{ikr\cos \theta } =\hat{e}_{x} =E_{0} e^{ikr\cos
+\theta }(\sin \theta \cos \phi \hat{e}_{r} +\cos \theta \cos \phi
+\hat{e}_{\theta } -\sin \phi \hat{e}_{\phi })\\
+\int _{0}^{2\pi }\int _{0}^{\pi } E\cdotp M_{o1n}\sin \theta \mathrm{d}
+\theta \mathrm{d} \phi \\
+=E_{0}\int _{0}^{2\pi }\int _{0}^{\pi }\{\left[\frac{1}{\sin \theta
+}\cos( \phi ) P_{n}^{1}(\cos \theta ) z_{n}( kr)\right]\left[ E_{0}
+e^{ikr\cos \theta }\cos \theta \cos \phi \right] +\\
+\left[\sin( \phi )\frac{\mathrm{d} P_{n}^{1}(\cos \theta )}{\mathrm{d}
+\theta } z_{n}( kr)\right]\left[ E_{0} e^{ikr\cos \theta }\sin \phi
+\right]\}\sin \theta \mathrm{d} \theta \mathrm{d} \phi \\
+=\pi z_{n}( kr) E_{0}\int _{0}^{\pi } -\left[ E_{0} e^{ikr\cos \theta
+}\right]\left\{\frac{1}{\sin \theta } P_{n}^{1}(\cos \theta )\cos \theta
+-\frac{\mathrm{d} P_{n}^{1}(\cos \theta )}{\mathrm{d}(\cos \theta )}\sin
+\theta \right\}\mathrm{d}(\cos \theta )\\
+=\pi z_{n}( kr) E_{0}\int _{-1}^{1}\left[ E_{0}
+e^{ikrx}\right]\left\{\frac{1}{\sqrt{1-x^{2}}} xP_{n}^{1}( x)
+-\frac{\mathrm{d} P_{n}^{1}( x)}{\mathrm{d}
+x}\sqrt{1-x^{2}}\right\}\mathrm{d} x\\
+=\pi z_{n}( kr) E_{0}\int _{-1}^{1} E_{0}
+e^{ikrx}\left\{x\frac{\mathrm{d} P_{n}( x)}{\mathrm{d} x}
+-\frac{1}{2n+1}\left[( n+1)^{2}\frac{\mathrm{d} P_{n-1}( x)}{\mathrm{d}
+x} -n^{2}\frac{\mathrm{d} P_{n+1}( x)}{\mathrm{d}
+x}\right]\right\}\mathrm{d} x\\
+=\pi z_{n}( kr) E_{0}\int _{-1}^{1} E_{0}
+e^{ikrx}\{\left[\frac{\mathrm{d} P_{n+1}( x)}{\mathrm{d} x} -( n+1)
+P_{n}( x)\right]\\
+-\frac{1}{2n+1}\left[( n+1)^{2}\frac{\mathrm{d} P_{n-1}( x)}{\mathrm{d}
+x} -n^{2}\frac{\mathrm{d} P_{n+1}( x)}{\mathrm{d} x}\right]\}\mathrm{d}
+x\\
+=\pi z_{n}( kr) E_{0}\int _{-1}^{1} E_{0} e^{ikrx}\left[\frac{(
+n+1)^{2}}{2n+1}\frac{\mathrm{d} P_{n+1}( x)}{\mathrm{d} x} -( n+1)
+P_{n}( x) -\frac{( n+1)^{2}}{2n+1}\frac{\mathrm{d} P_{n-1}(
+x)}{\mathrm{d} x}\right]\mathrm{d} x\\
+=\pi z_{n}( kr) E_{0}\int _{-1}^{1} E_{0} e^{ikrx}\left[\frac{(
+n+1)^{2}}{2n+1}\frac{\mathrm{d} P_{n+1}( x)}{\mathrm{d} x} -( n+1)
+P_{n}( x) -\frac{( n+1)^{2}}{2n+1}\frac{\mathrm{d} P_{n-1}(
+x)}{\mathrm{d} x}\right]\mathrm{d} x\\
+=\pi z_{n}( kr) E_{0}\int _{-1}^{1} E_{0} e^{ikrx}\left[ -( n+1) P_{n}(
+x) +n^{2} P_{n}( x) +( 2n+1) P_{n}( x)\right]\mathrm{d} x\\
+=\pi z_{n}( kr) E_{0}\int _{-1}^{1} E_{0} e^{ikrx}[ n( n+1) P_{n}(
+x)]\mathrm{d} x\\
+=2\pi ( j_{n}( kr))^{2} i^{n} n( n+1)\end{gathered}\]</span>
+所以可以得到： <span class="math display">\[B_{o1n} =\frac{2\pi ( j_{n}(
+kr))^{2} i^{n} n( n+1)}{\pi ( j_{n}( kr))^{2}\frac{2n^{2}(
+n+1)^{2}}{2n+1}} =i^{n}\frac{2n+1}{n( n+1)}\]</span>
+<strong>(4)和(10)为所证展开系数。</strong></p>
+<p>故 <span class="math display">\[\vec{E} =\sum _{n=1}^{\infty }
+i^{n}\frac{2n+1}{n( n+1)}\left( M_{o1n}^{( 1)} -iN_{e1n}^{(
+2)}\right)\]</span></p>
+]]></content>
+      <categories>
+        <category>证明</category>
+        <category>物理</category>
+      </categories>
+      <tags>
+        <tag>物理</tag>
+        <tag>证明</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>常见c++编译平台与对应编译工具链</title>
+    <url>/posts/2100236801/</url>
+    <content><![CDATA[<p>最近心血来潮，整理一下今后可能用到的常见c++编译平台与对应编译工具链。（其实是整理一下对应的vcpkg
+triplet） <span id="more"></span></p>
+<h2 id="windows">Windows</h2>
+<p>主要编译器有MSVC、Clang-Cl（原生编译器）、intel家的oneapi系列（icx）、Msys2（Mingw）里的gcc和clang。</p>
+<p>其中，Msys2有ucrt64和mingw64两个版本，建议使用ucrt64版的。</p>
+<h2 id="linux">Linux</h2>
+<p>主要编译器有gcc、clang、intel家的oneapi系列（icx）。</p>
+<h2 id="android">Android</h2>
+<p>主要就是android-ndk，还有用termux跑Linux模拟器</p>
+<h2 id="macos-ios">MacOS-iOS</h2>
+<p>因为我没有Mac，所以先跳过</p>
+<h2 id="webassembly">Webassembly</h2>
+<p>主要编译器是Emscripten，wasi-sdk。</p>
+<h2 id="其他target">其他target</h2>
+<p>如FreeOS和Solaris Sun等，但是一般比较少见，所以暂时略过。</p>
+]]></content>
+      <categories>
+        <category>工具</category>
+        <category>C/C++编译器</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>编译器</tag>
+        <tag>编译平台</tag>
+        <tag>工具链</tag>
+      </tags>
+  </entry>
+</search>

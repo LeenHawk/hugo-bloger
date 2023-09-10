@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>LeenHawk的网络日志</title>
+  <icon>https://blog.leenhawk.com/icon.png</icon>
+  <subtitle>分享学习心得和日常见闻</subtitle>
+  <link href="https://blog.leenhawk.com/atom.xml" rel="self"/>
+  
+  <link href="https://blog.leenhawk.com/"/>
+  <updated>2023-05-08T11:42:52.000Z</updated>
+  <id>https://blog.leenhawk.com/</id>
+  
+  <author>
+    <name>LeenHawk</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Qt-生命游戏开发记</title>
+    <link href="https://blog.leenhawk.com/posts/4092652412/"/>
+    <id>https://blog.leenhawk.com/posts/4092652412/</id>
+    <published>2023-05-08T11:42:52.000Z</published>
+    <updated>2023-05-08T11:42:52.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;细胞自动机（英语：Cellular
+automaton），又称格状自动机、元胞自动机，是一种离散模型，在可计算性理论、数学及理论生物学都有相关研究。它是由无限个有规律、坚硬的方格组成，每格均处于一种有限状态。整个格网可以是任何有限维的。同时也是离散的。每格于t时的态由t-1时的一集有限格（这集为该格的邻域）的态决定。每一格的“邻居”都是已被固定的。（一格可以是自己的邻居。）每次演进时，每格均遵从同一规矩一齐演进。&lt;/p&gt;
+&lt;p&gt;就形式而言，细胞自动机有三个特征：&lt;/p&gt;
+&lt;ol type=&quot;1&quot;&gt;
+&lt;li&gt;平行计算（parallel
+computation）：每一个细胞个体都同时同步的改变；&lt;/li&gt;
+&lt;li&gt;局部的（local）：细胞的状态变化只受周遭细胞的影响；&lt;/li&gt;
+&lt;li&gt;一致性的（homogeneous）：所有细胞均受同样的规则所支配。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以上引自&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU1JUJBJUI3JUU1JUE4JTgxJUU3JTk0JTlGJUU1JTkxJUJEJUU2JUI4JUI4JUU2JTg4JThG&quot;&gt;wikipedia
+细胞自动机&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;。</summary>
+    
+    
+    
+    <category term="GUI开发" scheme="https://blog.leenhawk.com/categories/GUI%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="Qt" scheme="https://blog.leenhawk.com/categories/GUI%E5%BC%80%E5%8F%91/Qt/"/>
+    
+    
+    <category term="Qt" scheme="https://blog.leenhawk.com/tags/Qt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gitea同步到Gitee和Github</title>
+    <link href="https://blog.leenhawk.com/posts/1067595023/"/>
+    <id>https://blog.leenhawk.com/posts/1067595023/</id>
+    <published>2023-05-08T09:13:58.000Z</published>
+    <updated>2023-05-08T09:13:58.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;建立了一个Gitea站之后，因为Gitea一般位于内网，有一些项目可能希望分享到外网与开源社区分享，我们可以使用Gitea提供的镜像仓库推送功能。</summary>
+    
+    
+    
+    <category term="工具" scheme="https://blog.leenhawk.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="Gitee" scheme="https://blog.leenhawk.com/categories/%E5%B7%A5%E5%85%B7/Gitee/"/>
+    
+    
+    <category term="Gitee" scheme="https://blog.leenhawk.com/tags/Gitee/"/>
+    
+    <category term="多端同步" scheme="https://blog.leenhawk.com/tags/%E5%A4%9A%E7%AB%AF%E5%90%8C%E6%AD%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WASI-sdk安装指南与使用</title>
+    <link href="https://blog.leenhawk.com/posts/87123955/"/>
+    <id>https://blog.leenhawk.com/posts/87123955/</id>
+    <published>2023-03-19T14:52:30.000Z</published>
+    <updated>2023-03-19T14:52:30.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;以前一直把C++转成Webassembly都用的是Emscripten，但是最近发现有个新工具WASI-sdk同样可以用来把C/C++转成webassembly，这里就做一下介绍吧。</summary>
+    
+    
+    
+    <category term="工具" scheme="https://blog.leenhawk.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="wasi-sdk" scheme="https://blog.leenhawk.com/categories/%E5%B7%A5%E5%85%B7/wasi-sdk/"/>
+    
+    
+    <category term="工具" scheme="https://blog.leenhawk.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="C/C++" scheme="https://blog.leenhawk.com/tags/C-C/"/>
+    
+    <category term="编译器" scheme="https://blog.leenhawk.com/tags/%E7%BC%96%E8%AF%91%E5%99%A8/"/>
+    
+    <category term="wasi-sdk" scheme="https://blog.leenhawk.com/tags/wasi-sdk/"/>
+    
+    <category term="wasi" scheme="https://blog.leenhawk.com/tags/wasi/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>clang-libcxx-lld-lldb自举</title>
+    <link href="https://blog.leenhawk.com/posts/1333943397/"/>
+    <id>https://blog.leenhawk.com/posts/1333943397/</id>
+    <published>2023-03-18T02:42:52.000Z</published>
+    <updated>2023-03-18T02:42:52.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近折腾一下clang工具链自举吧，不自举老连系统库就失去在Linux上用clang的意义了啊（难迁移）。</summary>
+    
+    
+    
+    <category term="工具" scheme="https://blog.leenhawk.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="clang" scheme="https://blog.leenhawk.com/categories/%E5%B7%A5%E5%85%B7/clang/"/>
+    
+    
+    <category term="工具" scheme="https://blog.leenhawk.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="C/C++" scheme="https://blog.leenhawk.com/tags/C-C/"/>
+    
+    <category term="编译器" scheme="https://blog.leenhawk.com/tags/%E7%BC%96%E8%AF%91%E5%99%A8/"/>
+    
+    <category term="clang" scheme="https://blog.leenhawk.com/tags/clang/"/>
+    
+    <category term="自举" scheme="https://blog.leenhawk.com/tags/%E8%87%AA%E4%B8%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Intel oneapi安装指南</title>
+    <link href="https://blog.leenhawk.com/posts/41924884/"/>
+    <id>https://blog.leenhawk.com/posts/41924884/</id>
+    <published>2023-03-17T13:07:35.000Z</published>
+    <updated>2023-03-17T13:07:35.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Intel
+oneapi是一个跨架构的软件开发平台，它提供了一系列的工具和库，让开发者可以利用Intel的CPU、GPU、FPGA等不同类型的硬件资源，编写高效、可移植、可扩展的应用程序。Intel
+oneapi包括了多个组件，其中之一就是Intel Fortran Compiler（ifx）。&lt;/p&gt;
+&lt;p&gt;ifx是一个基于LLVM技术的Fortran编译器，它支持Fortran
+2018的完整语言特性，包括Coarrays。ifx还支持OpenMP
+5.0/5.1的指令和离线功能，让开发者可以轻松地表达对Intel
+GPU的并行计算需求。ifx与传统的Intel Fortran Compiler
+Classic（ifort）兼容，可以使用相同的二进制文件和模块文件。ifx是oneapi
+HPC Toolkit中提供的两个Fortran编译器之一，另一个是ifort。&lt;/p&gt;
+&lt;p&gt;今天来介绍一下怎么安装。</summary>
+    
+    
+    
+    <category term="工具" scheme="https://blog.leenhawk.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="intel oneapi" scheme="https://blog.leenhawk.com/categories/%E5%B7%A5%E5%85%B7/intel-oneapi/"/>
+    
+    
+    <category term="C/C++" scheme="https://blog.leenhawk.com/tags/C-C/"/>
+    
+    <category term="工具介绍" scheme="https://blog.leenhawk.com/tags/%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D/"/>
+    
+    <category term="运维" scheme="https://blog.leenhawk.com/tags/%E8%BF%90%E7%BB%B4/"/>
+    
+    <category term="intel oneapi" scheme="https://blog.leenhawk.com/tags/intel-oneapi/"/>
+    
+    <category term="Fortran" scheme="https://blog.leenhawk.com/tags/Fortran/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常见Linux软件设置代理方法</title>
+    <link href="https://blog.leenhawk.com/posts/2112920253/"/>
+    <id>https://blog.leenhawk.com/posts/2112920253/</id>
+    <published>2023-03-17T12:23:41.000Z</published>
+    <updated>2023-03-17T12:23:41.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;因为有些软件源不设代理实在太慢，所以这里记一下Linux上常见软件设置代理的方法。</summary>
+    
+    
+    
+    <category term="工具" scheme="https://blog.leenhawk.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="工具" scheme="https://blog.leenhawk.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常见c++编译平台与对应编译工具链</title>
+    <link href="https://blog.leenhawk.com/posts/2100236801/"/>
+    <id>https://blog.leenhawk.com/posts/2100236801/</id>
+    <published>2023-03-17T09:07:32.000Z</published>
+    <updated>2023-03-17T09:07:32.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近心血来潮，整理一下今后可能用到的常见c++编译平台与对应编译工具链。（其实是整理一下对应的vcpkg
+triplet）</summary>
+    
+    
+    
+    <category term="工具" scheme="https://blog.leenhawk.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="C/C++编译器" scheme="https://blog.leenhawk.com/categories/%E5%B7%A5%E5%85%B7/C-C-%E7%BC%96%E8%AF%91%E5%99%A8/"/>
+    
+    
+    <category term="C/C++" scheme="https://blog.leenhawk.com/tags/C-C/"/>
+    
+    <category term="编译器" scheme="https://blog.leenhawk.com/tags/%E7%BC%96%E8%AF%91%E5%99%A8/"/>
+    
+    <category term="编译平台" scheme="https://blog.leenhawk.com/tags/%E7%BC%96%E8%AF%91%E5%B9%B3%E5%8F%B0/"/>
+    
+    <category term="工具链" scheme="https://blog.leenhawk.com/tags/%E5%B7%A5%E5%85%B7%E9%93%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>redisUnix套接字模式开启</title>
+    <link href="https://blog.leenhawk.com/posts/4099561651/"/>
+    <id>https://blog.leenhawk.com/posts/4099561651/</id>
+    <published>2023-03-16T17:56:24.000Z</published>
+    <updated>2023-03-16T17:56:24.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天搞了几个小时redis套接字模式一直打不开，发现具体原因好弱智啊。</summary>
+    
+    
+    
+    <category term="工具" scheme="https://blog.leenhawk.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="redis" scheme="https://blog.leenhawk.com/categories/%E5%B7%A5%E5%85%B7/redis/"/>
+    
+    
+    <category term="运维" scheme="https://blog.leenhawk.com/tags/%E8%BF%90%E7%BB%B4/"/>
+    
+    <category term="redis" scheme="https://blog.leenhawk.com/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>newBing使用感想</title>
+    <link href="https://blog.leenhawk.com/posts/1692619748/"/>
+    <id>https://blog.leenhawk.com/posts/1692619748/</id>
+    <published>2023-03-16T15:37:44.000Z</published>
+    <updated>2023-03-16T15:37:44.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近随大流使用了一下最近很火的AI，因为ChatGPT比较卡，主要使用的是NewBing，这里总结一下感想。</summary>
+    
+    
+    
+    <category term="杂谈" scheme="https://blog.leenhawk.com/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="杂谈" scheme="https://blog.leenhawk.com/tags/%E6%9D%82%E8%B0%88/"/>
+    
+    <category term="AI" scheme="https://blog.leenhawk.com/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vcpkg使用经验</title>
+    <link href="https://blog.leenhawk.com/posts/1120851791/"/>
+    <id>https://blog.leenhawk.com/posts/1120851791/</id>
+    <published>2023-03-16T10:42:16.000Z</published>
+    <updated>2023-03-16T10:42:16.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;缘起&quot;&gt;缘起&lt;/h2&gt;
+&lt;p&gt;由于某人之前用c++写了个项目，然后要引boost库（其实就为了个特殊函数），非常麻烦，然后折腾搞vcpkg了，这里把一些经验和大家分享吧。</summary>
+    
+    
+    
+    <category term="工具" scheme="https://blog.leenhawk.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="vcpkg" scheme="https://blog.leenhawk.com/categories/%E5%B7%A5%E5%85%B7/vcpkg/"/>
+    
+    
+    <category term="工具" scheme="https://blog.leenhawk.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="C/C++" scheme="https://blog.leenhawk.com/tags/C-C/"/>
+    
+    <category term="vcpkg" scheme="https://blog.leenhawk.com/tags/vcpkg/"/>
+    
+    <category term="cmake" scheme="https://blog.leenhawk.com/tags/cmake/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Qt6静态编译（二）：Windows编译</title>
+    <link href="https://blog.leenhawk.com/posts/597631914/"/>
+    <id>https://blog.leenhawk.com/posts/597631914/</id>
+    <published>2022-06-15T13:29:31.000Z</published>
+    <updated>2022-06-15T13:29:31.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这次出的是Windows编译，你问为什么上一篇说是要过段时间，为什么是同一天的文章？因为我突然想把Qt搬到D盘去，反正都是固态。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://blog.leenhawk.com/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="C++" scheme="https://blog.leenhawk.com/categories/%E7%A8%8B%E5%BA%8F/C/"/>
+    
+    <category term="Qt" scheme="https://blog.leenhawk.com/categories/%E7%A8%8B%E5%BA%8F/C/Qt/"/>
+    
+    
+    <category term="Qt" scheme="https://blog.leenhawk.com/tags/Qt/"/>
+    
+    <category term="C++" scheme="https://blog.leenhawk.com/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Qt6静态编译（一）：Linux编译</title>
+    <link href="https://blog.leenhawk.com/posts/1458748944/"/>
+    <id>https://blog.leenhawk.com/posts/1458748944/</id>
+    <published>2022-06-15T07:51:27.000Z</published>
+    <updated>2022-06-15T07:51:27.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Qt挺好用的，但是静态编译使人头大，这里记录一下Linux上咋静态编译（Windows上下次再出吧），顺便记一下WSL开发环境设置(比如安装Anconda、pytorch和Microsoft
+edge，解决中文乱码问题)。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://blog.leenhawk.com/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="C++" scheme="https://blog.leenhawk.com/categories/%E7%A8%8B%E5%BA%8F/C/"/>
+    
+    <category term="Qt" scheme="https://blog.leenhawk.com/categories/%E7%A8%8B%E5%BA%8F/C/Qt/"/>
+    
+    
+    <category term="Qt" scheme="https://blog.leenhawk.com/tags/Qt/"/>
+    
+    <category term="C++" scheme="https://blog.leenhawk.com/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CGS制单位转化</title>
+    <link href="https://blog.leenhawk.com/posts/2668641632/"/>
+    <id>https://blog.leenhawk.com/posts/2668641632/</id>
+    <published>2022-03-26T06:25:15.000Z</published>
+    <updated>2022-03-26T06:25:15.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天我发现网上&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9waHlzaWNzLnN0YWNrZXhjaGFuZ2UuY29tL3F1ZXN0aW9ucy82OTk3MjAvd2hhdC1pcy11bml0LXN5c3RlbS1pbi10aGlzLXJlZHVjdGlvbi1wcm9jZXNzP25vcmVkaXJlY3Q9MSNjb21tZW50MTU2NjI4M182OTk3MjA=&quot;&gt;有人&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;问了关于SRIM那本书的问题，原来参数看起来不一样的原因是SRIM书上的单位是厘米-克-秒单位制(centimetre-gram-second
+system,CGS)，而不是现在比较常用的国际单位制(Système International
+d&#39;Unités(French),SI)，那么就让我记一下有关的笔记吧。</summary>
+    
+    
+    
+    <category term="物理" scheme="https://blog.leenhawk.com/categories/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="计算物理" scheme="https://blog.leenhawk.com/categories/%E7%89%A9%E7%90%86/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86/"/>
+    
+    
+    <category term="计算物理" scheme="https://blog.leenhawk.com/tags/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86/"/>
+    
+    <category term="物理" scheme="https://blog.leenhawk.com/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="单位制" scheme="https://blog.leenhawk.com/tags/%E5%8D%95%E4%BD%8D%E5%88%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>两同样大小的正态分布阻值电阻并联总电阻均值证明</title>
+    <link href="https://blog.leenhawk.com/posts/1012380595/"/>
+    <id>https://blog.leenhawk.com/posts/1012380595/</id>
+    <published>2022-01-23T12:23:41.000Z</published>
+    <updated>2022-01-23T12:23:41.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;命题&quot;&gt;命题：&lt;/h2&gt;
+&lt;p&gt;两个阻值&lt;span class=&quot;math inline&quot;&gt;&#92;(&#92;displaystyle R_{1} ,R_{2} &#92;sim
+N( R ,&#92;sigma
+)&#92;)&lt;/span&gt;的电阻并联，求总电阻的期望。(注：过程极不严谨,充满主值积分)&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="证明" scheme="https://blog.leenhawk.com/categories/%E8%AF%81%E6%98%8E/"/>
+    
+    <category term="数学" scheme="https://blog.leenhawk.com/categories/%E8%AF%81%E6%98%8E/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+    <category term="数学" scheme="https://blog.leenhawk.com/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+    <category term="证明" scheme="https://blog.leenhawk.com/tags/%E8%AF%81%E6%98%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高等电动力学的一个证明</title>
+    <link href="https://blog.leenhawk.com/posts/1376844091/"/>
+    <id>https://blog.leenhawk.com/posts/1376844091/</id>
+    <published>2021-10-06T16:00:00.000Z</published>
+    <updated>2021-10-06T16:00:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h4 id=&quot;命题&quot;&gt;命题：&lt;/h4&gt;
+&lt;p&gt;对平面波&lt;span class=&quot;math inline&quot;&gt;&#92;(&#92;displaystyle E=&#92;hat{e}_{x} E_{0}
+e^{ikz} =&#92;hat{e}_{x} E_{0} e^{ikr&#92;cos &#92;theta
+}&#92;)&lt;/span&gt;按矢量球波函数进行展开。&lt;/p&gt;
+&lt;p&gt;其中，&lt;span class=&quot;math inline&quot;&gt;&#92;(&#92;displaystyle &#92;hat{e}_{x} =&#92;sin
+&#92;theta &#92;cos &#92;phi &#92;hat{e}_{r} +&#92;cos &#92;theta &#92;cos &#92;phi &#92;hat{e}_{&#92;theta }
+-&#92;sin &#92;phi &#92;hat{e}_{&#92;phi }&#92;)&lt;/span&gt;。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="证明" scheme="https://blog.leenhawk.com/categories/%E8%AF%81%E6%98%8E/"/>
+    
+    <category term="物理" scheme="https://blog.leenhawk.com/categories/%E8%AF%81%E6%98%8E/%E7%89%A9%E7%90%86/"/>
+    
+    
+    <category term="物理" scheme="https://blog.leenhawk.com/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="证明" scheme="https://blog.leenhawk.com/tags/%E8%AF%81%E6%98%8E/"/>
+    
+  </entry>
+  
+</feed>
